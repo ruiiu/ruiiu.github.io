@@ -13,7 +13,7 @@ profile:
    <p>College Park, MD, 20742</p>
    <p>ruiliu at umd dot edu</p>
    <p>Your City, State 12345</p>
-   -->
+  -->
 
 news: true  # includes a list of news items
 # latest_posts: true  # includes a list of the newest posts
