@@ -7,7 +7,7 @@ permalink: /
 profile:
   align: right
   image: Rui_Liu.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>College Park, MD, 20742</p>
     <p>ruiliu at umd dot edu</p>
