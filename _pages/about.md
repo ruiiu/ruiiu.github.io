@@ -9,9 +9,9 @@ profile:
   image: Rui_Liu.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-   # <p>College Park, MD, 20742</p>
-   # <p>ruiliu at umd dot edu</p>
-   # <p>Your City, State 12345</p>
+   #<p>College Park, MD, 20742</p>
+   #<p>ruiliu at umd dot edu</p>
+   #<p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 # latest_posts: true  # includes a list of the newest posts
