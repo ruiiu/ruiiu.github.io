@@ -1,3 +1,4 @@
+<!--
 ---
 layout: page
 title: Projects
@@ -56,3 +57,5 @@ horizontal: false
   {%- endif -%}
 {%- endif -%}
 </div>
+
+-->
