@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted to IROS 2023!
+One paper on distributionally robust optimal control (DROC) accepted to IROS 2023!
