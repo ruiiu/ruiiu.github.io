@@ -145,10 +145,12 @@ layout: null
             <p class="publication-description">{{ publication.description }}</p>
             <!-- Publication Links. -->
             <div class="publication-links buttons field has-addons">
+              {% if publication.project_page %}
               <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
                 <span class="icon"><i class="fas fa-globe-asia"></i></span>
                 <span>Project Page</span>
               </a>
+              {% endif %}
               <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>PDF</span>
