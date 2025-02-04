@@ -28,7 +28,7 @@
     - gyshi
     - pratap
   awards:
-    - "Best Paper Award at ICRA 2024 Workshop on Cooking Robotics: Perception and  Motion Planning"
+    - "Best Paper Award at ICRA 2024 Workshop on Cooking Robotics: Perception and Motion Planning"
     
 - id: droc
   title: "Data-Driven Distributionally Robust Optimal Control with State-Dependent Noise"
@@ -42,39 +42,20 @@
     - rui
     - gyshi
     - pratap
-- id: hypernerf
-  title: "HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields"
-  venue: SIGGRAPH Asia, 2021
-  description: "By applying ideas from level set methods, we can represent topologically changing scenes with NeRFs."
-  project_page: "https://hypernerf.github.io"
-  github: google/hypernerf
-  arxiv: 2106.13228
-  image: hypernerf_before.jpg
-  image_mouseover: hypernerf_after.mp4
-  authors:
-    - keunhong
-    - utsinh
-    - hedman
-    - barron
-    - sofien
-    - dgo
-    - rmbrualla
-    - smseitz
 
-- id: fignerf
-  title: "FiG-NeRF: Figure Ground Neural Radiance Fields for 3D Object Category Modelling "
-  venue: 3DV, 2021
-  description: "Given a lot of images of an object category, you can train a NeRF to render them from novel views and interpolate between different instances."
-  project_page: "https://fig-nerf.github.io"
-  arxiv: 2104.08418
-  image: fignerf_before.jpg
-  image_mouseover: fignerf_after.mp4
+- id: avil
+  title: "Adaptive Visual Imitation Learning for Robotic Assisted Feeding Across Varied Bowl Configurations and Food Types"
+  venue: ICRA Workshop on Cooking Robotics: Perception and Motion Planning, 2024
+  description: "Adaptive visual Imitation Learning for Robotic Assisted Feeding."
+  # project_page: "https://fig-nerf.github.io"
+  arxiv: 2403.12891
+  image: avil.jpg
+  # image_mouseover: fignerf_after.mp4
   authors:
-    - chrisxie
-    - keunhong
-    - rmbrualla
-    - mtbr
-
+    - rui
+    - amisha
+    - pratap
+    
 - id: nerfies
   title: "Nerfies: Deformable Neural Radiance Fields"
   venue: ICCV, 2021
