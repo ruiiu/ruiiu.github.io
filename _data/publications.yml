@@ -11,6 +11,25 @@
     - zahir
     - amisha
     - pratap
+    
+- id: lava
+  title: "LAVA: Long-horizon Visual Action based Food Acquisition"
+  venue: IROS, 2024
+  description: "Long-horizon Visual Action-based (LAVA) food acquisition of liquid, semisolid, and deformable foods."
+  project_page: "https://raaslab.org/projects/RoboSpoon/"
+  # github: jonbarron/camp_zipnerf
+  arxiv: 2403.12876
+  image: lava.pdf
+  # image_mouseover: camp_after.mp4
+  authors:
+    - amisha
+    - rui
+    - vishnu
+    - gyshi
+    - pratap
+  awards:
+    - "Best Paper Award at ICRA 2024 Workshop on Cooking Robotics: Perception and  Motion Planning"
+    
 - id: droc
   title: "Data-Driven Distributionally Robust Optimal Control with State-Dependent Noise"
   venue: IROS, 2023
@@ -23,24 +42,6 @@
     - rui
     - gyshi
     - pratap
-- id: hypernerf
-  title: "CamP: Camera Preconditioning for Neural Radiance Fields"
-  venue: SIGGRAPH Asia, 2023
-  description: "Preconditioning camera optimization during NeRF training significantly improves their ability to jointly recover the scene and camera parameters."
-  project_page: "https://camp-nerf.github.io"
-  github: jonbarron/camp_zipnerf
-  arxiv: 2308.10902
-  image: camp_before.jpg
-  image_mouseover: camp_after.mp4
-  authors:
-    - keunhong
-    - phenzler
-    - bmild
-    - barron
-    - rmbrualla
-  awards:
-    - "Journal Paper"
-
 - id: hypernerf
   title: "HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields"
   venue: SIGGRAPH Asia, 2021
