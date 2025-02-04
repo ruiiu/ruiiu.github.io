@@ -1,3 +1,61 @@
+- id: aukt
+  title: "AUKT: Adaptive Uncertainty-Guided Knowledge Transfer with Conformal Prediction"
+  venue: Under Review, 2025
+  description: "A universal framework that leverages conformal prediction to quantify teacher prediction uncertainty and dynamically adjust its guidande on the student under domain shifts."
+  # project_page: https://ruiiu.github.io/imrl
+  # arxiv: 2409.12092
+  image: imrl.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - rui
+    - peng
+    - yu
+    - ming
+    - pratap
+
+- id: caml
+  title: "CAML: Collaborative Auxiliary Modality Learning for Multi-Agent Systems"
+  venue: Under Review, 2025
+  description: "A novel multi-agent multi-modality framework that enables agents to collaborate and share multimodal data during training while allowing inference with reduced modalities per agent during testing."
+  # project_page: https://ruiiu.github.io/imrl
+  # arxiv: 2409.12092
+  image: caml.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - rui
+    - yu
+    - peng
+    - pratap
+    - ming
+
+- id: mmcd
+  title: "MMCD: Multi-Modality Collaborative Decision-Making for Connected Autonomous Driving with Knowledge Distillation"
+  venue: Under Review, 2025
+  description: "a novel multi-modality collaborative decision-making approach for connected autonomous driving."
+  # project_page: https://ruiiu.github.io/imrl
+  # arxiv: 2409.12092
+  image: mmcd.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - rui
+    - peng
+    - yu
+    - pratap
+    - ming
+
+- id: risk
+  title: "Towards Efficient Risk-Sensitive Policy Gradient: An Iteration Complexity Analysis"
+  venue: Under Review, 2025
+  description: "a thorough iteration complexity analysis for the risk-sensitive policy gradient method, focusing on the REINFORCE algorithm and employing the exponential utility function."
+  # project_page: https://ruiiu.github.io/imrl
+  arxiv: 2403.08955
+  # image: mmcd.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - rui
+    - erfaun
+    - pratap
+
 - id: imrl
   title: "IMRL: Integrating Visual, Physical, Temporal, and Geometric Representations for Enhanced Food Acquisition"
   venue: ICRA, 2025
