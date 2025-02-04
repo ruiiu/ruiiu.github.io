@@ -31,7 +31,7 @@
 - id: mmcd
   title: "MMCD: Multi-Modality Collaborative Decision-Making for Connected Autonomous Driving with Knowledge Distillation"
   venue: Under Review, 2025
-  description: "a novel multi-modality collaborative decision-making approach for connected autonomous driving."
+  description: "A novel multi-modality collaborative decision-making approach for connected autonomous driving."
   # project_page: https://ruiiu.github.io/imrl
   # arxiv: 2409.12092
   image: mmcd.png
@@ -46,7 +46,7 @@
 - id: risk
   title: "Towards Efficient Risk-Sensitive Policy Gradient: An Iteration Complexity Analysis"
   venue: Under Review, 2025
-  description: "a thorough iteration complexity analysis for the risk-sensitive policy gradient method, focusing on the REINFORCE algorithm and employing the exponential utility function."
+  description: "A thorough iteration complexity analysis for the risk-sensitive policy gradient method, focusing on the REINFORCE algorithm and employing the exponential utility function."
   # project_page: https://ruiiu.github.io/imrl
   arxiv: 2403.08955
   # image: mmcd.png
