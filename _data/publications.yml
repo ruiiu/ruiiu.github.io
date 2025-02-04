@@ -45,7 +45,7 @@
 
 - id: avil
   title: "Adaptive Visual Imitation Learning for Robotic Assisted Feeding Across Varied Bowl Configurations and Food Types"
-  venue: ICRA Workshop on Cooking Robotics: Perception and Motion Planning, 2024
+  venue: ICRA Workshop on Cooking Robotics Perception and Motion Planning, 2024
   description: "Adaptive visual Imitation Learning for Robotic Assisted Feeding."
   # project_page: "https://fig-nerf.github.io"
   arxiv: 2403.12891
