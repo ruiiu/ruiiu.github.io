@@ -1,18 +1,16 @@
-- id: illuminerf
-  title: "IllumiNeRF 3D Relighting without Inverse Rendering"
-  venue: NeurIPS, 2024
-  description: "3D relighting by distilling samples from a 2D image relighting diffusion model into a latent-variable NeRF."
-  project_page: https://illuminerf.github.io
-  arxiv: 2406.06527
-  image: illuminerf_before.jpg
-  image_mouseover: illuminerf_after.mp4
+- id: imrl
+  title: "IMRL: Integrating Visual, Physical, Temporal, and Geometric Representations for Enhanced Food Acquisition"
+  venue: ICRA, 2025
+  description: "Integrated Multi-Dimensional Representation Learning, which integrates visual, physical, temporal, and geometric representations to enhance the robustness and generalizability of Imitation Learning for food acquisition."
+  project_page: https://ruiiu.github.io/imrl
+  arxiv: 2409.12092
+  image: imrl.png
+  # image_mouseover: illuminerf_after.mp4
   authors:
-    - xiaomingzhao
-    - pratuls
-    - dorverbin
-    - keunhong
-    - rmbrualla
-    - phenzler
+    - rui
+    - zahir
+    - amisha
+    - pratap
 - id: reconfusion
   title: "ReconFusion: 3D Reconstruction with Diffusion Priors"
   venue: CVPR, 2024
