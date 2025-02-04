@@ -4,7 +4,7 @@
   description: "A universal framework that leverages conformal prediction to quantify teacher prediction uncertainty and dynamically adjust its guidande on the student under domain shifts."
   # project_page: https://ruiiu.github.io/imrl
   # arxiv: 2409.12092
-  image: imrl.png
+  image: aukt.png
   # image_mouseover: illuminerf_after.mp4
   authors:
     - rui
