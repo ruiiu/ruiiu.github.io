@@ -1,11 +1,15 @@
-- name: University of Washington 
+- name: University of Maryland, College Park
   description: >-
-    Ph. D in Computer Science, advised by <a href="https://smseitz.com">Steven M. Seitz</a> and
-    <a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a>.<br />
-    Supported by Samsung Scholarship 2015-2020 ($50,000/year for 5 years)
-  dates: Fall 2015 - Spring 2022
+    Ph.D. in Computer Science, advised by <a href="https://tokekar.com">Prof. Pratap Tokekar</a> and
+    <a href="https://www.cs.umd.edu/people/lin">Prof. Ming Lin</a>
+  dates: August 2022 - Now
+  
+- name: University of Maryland, College Park
+  description: >-
+    Master in Computer Science
+  dates: May 2024
 
-- name: University of Illinois at Urbana-Champaign
+- name: Shanghai Jiao Tong University
   description: >-
-    B.S. in Computer Science, advised by <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>.
-  dates: Fall 2009 - Spring 2013
+    B.S. in Mechanical Engineering
+  dates: June 2020
