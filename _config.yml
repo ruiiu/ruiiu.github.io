@@ -24,7 +24,7 @@ position: PhD student
 email: ruiliu@umd.edu
 description: >-
   I am currently a Ph.D. student in [Computer Science](https://www.cs.umd.edu/) at the University of Maryland, College Park, working with Prof. [Pratap Tokekar](http://tokekar.com) and Prof. [Ming Lin](https://www.cs.umd.edu/people/lin). 
-  Previously, I earned my bachelor`s degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I have also interned at Apple and Tencent Robotics X.
+  Previously, I earned my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I have also interned at Apple and Tencent Robotics X.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ruiiu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: KeunhongP
