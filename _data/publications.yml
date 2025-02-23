@@ -29,10 +29,10 @@
     - ming
 
 - id: mmcd
-  title: "MMCD: Multi-Modality Collaborative Decision-Making for Connected Autonomous Driving with Knowledge Distillation"
+  title: "MMCD: Multi-Modality Collaborative Decision-Making for Connected Autonomy with Knowledge Distillation"
   venue: Under Review, 2025
-  description: "A novel multi-modality collaborative decision-making approach for connected autonomous driving."
-  # project_page: https://ruiiu.github.io/imrl
+  description: "A novel multi-modality collaborative decision-making approach for connected autonomy."
+  project_page: https://ruiiu.github.io/mmcd
   # arxiv: 2409.12092
   image: mmcd.png
   # image_mouseover: illuminerf_after.mp4
