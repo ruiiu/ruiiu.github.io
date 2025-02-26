@@ -3,7 +3,7 @@
   venue: Under Review, 2025
   description: "A universal framework that leverages conformal prediction to quantify teacher prediction uncertainty and dynamically adjust its guidande on the student under domain shifts."
   # project_page: https://ruiiu.github.io/imrl
-  # arxiv: 2409.12092
+  arxiv: 2502.16736
   image: aukt.png
   # image_mouseover: illuminerf_after.mp4
   authors:
@@ -18,7 +18,7 @@
   venue: Under Review, 2025
   description: "A novel multi-agent multi-modality framework that enables agents to collaborate and share multimodal data during training while allowing inference with reduced modalities per agent during testing."
   # project_page: https://ruiiu.github.io/imrl
-  # arxiv: 2409.12092
+  arxiv: 2502.17821
   image: caml.png
   # image_mouseover: illuminerf_after.mp4
   authors:
