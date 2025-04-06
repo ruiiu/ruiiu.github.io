@@ -58,7 +58,7 @@
 
 - id: imrl
   title: "IMRL: Integrating Visual, Physical, Temporal, and Geometric Representations for Enhanced Food Acquisition"
-  venue: ICRA, 2025
+  venue: 2025 IEEE International Conference on Robotics and Automation (ICRA, 2025)
   description: "Integrated Multi-Dimensional Representation Learning, which integrates visual, physical, temporal, and geometric representations to enhance the robustness and generalizability of Imitation Learning for food acquisition."
   project_page: https://ruiiu.github.io/imrl
   arxiv: 2409.12092
@@ -72,7 +72,7 @@
     
 - id: lava
   title: "LAVA: Long-horizon Visual Action based Food Acquisition"
-  venue: IROS, 2024
+  venue: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2024)
   description: "Long-horizon Visual Action-based (LAVA) food acquisition of liquid, semisolid, and deformable foods."
   project_page: "https://raaslab.org/projects/RoboSpoon/"
   # github: jonbarron/camp_zipnerf
@@ -90,7 +90,7 @@
     
 - id: droc
   title: "Data-Driven Distributionally Robust Optimal Control with State-Dependent Noise"
-  venue: IROS, 2023
+  venue: 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2023)
   description: "A data-driven technique for estimating the uncertainty and bound for the KL divergence for distributionally robust optimal control."
   # project_page: https://reconfusion.github.io
   arxiv: 2303.02293
