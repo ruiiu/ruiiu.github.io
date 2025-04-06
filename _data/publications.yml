@@ -1,6 +1,7 @@
 - id: aukt
   title: "AUKT: Adaptive Uncertainty-Guided Knowledge Transfer with Conformal Prediction"
   venue: Under Review, 2025
+  venue_short: Under Review, 2025
   description: "A universal framework that leverages conformal prediction to quantify teacher prediction uncertainty and dynamically adjust its guidande on the student under domain shifts."
   # project_page: https://ruiiu.github.io/imrl
   arxiv: 2502.16736
@@ -16,6 +17,7 @@
 - id: caml
   title: "CAML: Collaborative Auxiliary Modality Learning for Multi-Agent Systems"
   venue: Under Review, 2025
+  venue_short: Under Review, 2025
   description: "A novel multi-agent multi-modality framework that enables agents to collaborate and share multimodal data during training while allowing inference with reduced modalities per agent during testing."
   # project_page: https://ruiiu.github.io/imrl
   arxiv: 2502.17821
@@ -31,6 +33,7 @@
 - id: mmcd
   title: "MMCD: Multi-Modal Collaborative Decision-Making for Connected Autonomy with Knowledge Distillation"
   venue: Under Review, 2025
+  venue_short: Under Review, 2025
   description: "A novel multi-modal collaborative decision-making approach for connected autonomy."
   project_page: https://ruiiu.github.io/mmcd
   # arxiv: 2409.12092
@@ -46,6 +49,7 @@
 - id: risk
   title: "Towards Efficient Risk-Sensitive Policy Gradient: An Iteration Complexity Analysis"
   venue: Under Review, 2025
+  venue_short: Under Review, 2025
   description: "A thorough iteration complexity analysis for the risk-sensitive policy gradient method, focusing on the REINFORCE algorithm and employing the exponential utility function."
   project_page: https://ruiiu.github.io/riskrl
   arxiv: 2403.08955
@@ -60,6 +64,7 @@
 - id: imrl
   title: "IMRL: Integrating Visual, Physical, Temporal, and Geometric Representations for Enhanced Food Acquisition"
   venue: 2025 IEEE International Conference on Robotics and Automation (ICRA, 2025)
+  venue_short: ICRA, 2025
   description: "Integrated Multi-Dimensional Representation Learning, which integrates visual, physical, temporal, and geometric representations to enhance the robustness and generalizability of Imitation Learning for food acquisition."
   project_page: https://ruiiu.github.io/imrl
   arxiv: 2409.12092
@@ -74,6 +79,7 @@
 - id: lava
   title: "LAVA: Long-horizon Visual Action based Food Acquisition"
   venue: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2024)
+  venue_short: IROS, 2024
   description: "Long-horizon Visual Action-based (LAVA) food acquisition of liquid, semisolid, and deformable foods."
   project_page: "https://raaslab.org/projects/RoboSpoon/"
   arxiv: 2403.12876
@@ -91,6 +97,7 @@
 - id: droc
   title: "Data-Driven Distributionally Robust Optimal Control with State-Dependent Noise"
   venue: 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2023)
+  venue_short: IROS, 2023
   description: "A data-driven technique for estimating the uncertainty and bound for the KL divergence for distributionally robust optimal control."
   # project_page: https://reconfusion.github.io
   arxiv: 2303.02293
@@ -104,6 +111,7 @@
 - id: avil
   title: "Adaptive Visual Imitation Learning for Robotic Assisted Feeding Across Varied Bowl Configurations and Food Types"
   venue: ICRA Workshop on Cooking Robotics Perception and Motion Planning, 2024
+  venue_short: ICRA Workshop, 2024
   description: "Adaptive visual imitation learning that exhibits adaptability and robustness across different bowl configurations and diverse food types for robotic scooping."
   # project_page: "https://fig-nerf.github.io"
   arxiv: 2403.12891
