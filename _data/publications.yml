@@ -47,12 +47,13 @@
   title: "Towards Efficient Risk-Sensitive Policy Gradient: An Iteration Complexity Analysis"
   venue: Under Review, 2025
   description: "A thorough iteration complexity analysis for the risk-sensitive policy gradient method, focusing on the REINFORCE algorithm and employing the exponential utility function."
-  # project_page: https://ruiiu.github.io/imrl
+  project_page: https://ruiiu.github.io/riskrl
   arxiv: 2403.08955
   # image: mmcd.png
   # image_mouseover: illuminerf_after.mp4
   authors:
     - rui
+    - anish
     - erfaun
     - pratap
 
@@ -75,7 +76,6 @@
   venue: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2024)
   description: "Long-horizon Visual Action-based (LAVA) food acquisition of liquid, semisolid, and deformable foods."
   project_page: "https://raaslab.org/projects/RoboSpoon/"
-  # github: jonbarron/camp_zipnerf
   arxiv: 2403.12876
   image: lava.png
   # image_mouseover: camp_after.mp4
