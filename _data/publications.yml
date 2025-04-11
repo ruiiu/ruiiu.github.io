@@ -53,7 +53,7 @@
   description: "A thorough iteration complexity analysis for the risk-sensitive policy gradient method, focusing on the REINFORCE algorithm and employing the exponential utility function."
   project_page: https://ruiiu.github.io/riskrl
   arxiv: 2403.08955
-  # image: mmcd.png
+  image: riskrl.png
   # image_mouseover: illuminerf_after.mp4
   authors:
     - rui
