@@ -1,8 +1,8 @@
 - id: aukt
-  title: "AUKT: Adaptive Uncertainty-Guided Knowledge Transfer with Conformal Prediction"
-  venue: Under Review, 2025
-  venue_short: Under Review, 2025
-  description: "A universal framework that leverages conformal prediction to quantify teacher prediction uncertainty and dynamically adjust its guidande on the student under domain shifts."
+  title: "Adaptive Conformal Guidance: A Framework for Multi-Domain Learning under Uncertainty"
+  venue: Under Review
+  venue_short: Under Review
+  description: "A universal, plug-and-play framework that dynamically modulates guidance signals based on associated uncertainty, providing a simple yet effective solution for incorporating uncertainty-aware guidance across diverse machine learning domains."
   # project_page: https://ruiiu.github.io/imrl
   arxiv: 2502.16736
   image: aukt.png
@@ -16,9 +16,9 @@
 
 - id: caml
   title: "CAML: Collaborative Auxiliary Modality Learning for Multi-Agent Systems"
-  venue: Under Review, 2025
-  venue_short: Under Review, 2025
-  description: "A novel multi-agent multi-modality framework that enables agents to collaborate and share multimodal data during training while allowing inference with reduced modalities per agent during testing."
+  venue: Under Review
+  venue_short: Under Review
+  description: "A novel multi-modal multi-agent framework that enables agents to collaborate and share multimodal data during training while allowing inference with reduced modalities during testing, which is especially beneficial for deployment in resource-constrained environments."
   # project_page: https://ruiiu.github.io/imrl
   arxiv: 2502.17821
   image: caml.png
@@ -32,8 +32,8 @@
 
 - id: mmcd
   title: "MMCD: Multi-Modal Collaborative Decision-Making for Connected Autonomy with Knowledge Distillation"
-  venue: Under Review, 2025
-  venue_short: Under Review, 2025
+  venue: Under Review
+  venue_short: Under Review
   description: "A novel multi-modal collaborative decision-making approach for connected autonomy."
   project_page: https://ruiiu.github.io/mmcd
   # arxiv: 2409.12092
@@ -48,8 +48,8 @@
 
 - id: risk
   title: "Towards Efficient Risk-Sensitive Policy Gradient: An Iteration Complexity Analysis"
-  venue: Under Review, 2025
-  venue_short: Under Review, 2025
+  venue: Under Review
+  venue_short: Under Review
   description: "A thorough iteration complexity analysis for the risk-sensitive policy gradient method, focusing on the REINFORCE algorithm and employing the exponential utility function."
   project_page: https://ruiiu.github.io/riskrl
   arxiv: 2403.08955
