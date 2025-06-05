@@ -27,8 +27,8 @@ description: >-
   Previously, I earned my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I have also interned at Apple and Tencent Robotics X. 
 
   
-  My research focuses on developing robust and adaptive learning algorithms for autonomous systems. Specifically, I work on Multimodal Learning, Imitation Learning, and Reinforcement Learning etc. 
-  My goal is to advance AI-driven decision-making by improving efficiency, generalization, and robustness in real-world scenarios, such as Robotics and Autonomous Driving. 
+  # My research focuses on developing robust and adaptive learning algorithms for autonomous systems. 
+  I work on Multimodal Learning, Imitation Learning, and Reinforcement Learning etc. My goal is to advance AI-driven decision-making by improving efficiency, generalization, and robustness in real-world scenarios, such as Robotics and Autonomous Driving. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ruiiu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: KeunhongP
