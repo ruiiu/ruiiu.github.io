@@ -5,7 +5,7 @@
   description: "A universal, plug-and-play framework that dynamically modulates guidance signals based on associated uncertainty, providing a simple yet effective solution for incorporating uncertainty-aware guidance across diverse machine learning domains."
   # project_page: https://ruiiu.github.io/imrl
   arxiv: 2502.16736
-  image: aukt.png
+  image: acg.png
   # image_mouseover: illuminerf_after.mp4
   authors:
     - rui
