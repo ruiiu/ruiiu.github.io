@@ -18,7 +18,7 @@
   title: "CAML: Collaborative Auxiliary Modality Learning for Multi-Agent Systems"
   venue: Under Review
   venue_short: Under Review
-  description: "A novel multi-modal multi-agent framework that enables agents to collaborate and share multimodal data during training while allowing inference with reduced modalities during testing, which is especially beneficial for deployment in resource-constrained environments."
+  description: "A multi-modal multi-agent framework that enables agents to collaborate and share multimodal data during training while allowing inference with reduced modalities during testing, which is especially beneficial for deployment in resource-constrained environments."
   # project_page: https://ruiiu.github.io/imrl
   arxiv: 2502.17821
   image: caml.png
@@ -32,9 +32,9 @@
 
 - id: mmcd
   title: "MMCD: Multi-Modal Collaborative Decision-Making for Connected Autonomy with Knowledge Distillation"
-  venue: Under Review
-  venue_short: Under Review
-  description: "A novel multi-modal collaborative decision-making approach for connected autonomy."
+  venue: 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2025)
+  venue_short: IROS, 2025
+  description: "A multi-modal collaborative decision-making approach for connected autonomy with cross-modal knowledge distillation."
   project_page: https://ruiiu.github.io/mmcd
   # arxiv: 2409.12092
   image: mmcd.png
@@ -65,7 +65,7 @@
   title: "IMRL: Integrating Visual, Physical, Temporal, and Geometric Representations for Enhanced Food Acquisition"
   venue: 2025 IEEE International Conference on Robotics and Automation (ICRA, 2025)
   venue_short: ICRA, 2025
-  description: "Integrated Multi-Dimensional Representation Learning, which integrates visual, physical, temporal, and geometric representations to enhance the robustness and generalizability of Imitation Learning for food acquisition."
+  description: "A multi-dimensional Representation Learning approach that integrates visual, physical, temporal, and geometric representations to enhance the robustness and generalizability of Imitation Learning for food acquisition."
   project_page: https://ruiiu.github.io/imrl
   arxiv: 2409.12092
   image: imrl.png
@@ -112,7 +112,7 @@
   title: "Adaptive Visual Imitation Learning for Robotic Assisted Feeding Across Varied Bowl Configurations and Food Types"
   venue: ICRA Workshop on Cooking Robotics Perception and Motion Planning, 2024
   venue_short: ICRA Workshop, 2024
-  description: "Adaptive visual imitation learning that exhibits adaptability and robustness across different bowl configurations and diverse food types for robotic scooping."
+  description: "An adaptive visual imitation learning approach that exhibits adaptability and robustness across different bowl configurations and diverse food types for robotic scooping."
   # project_page: "https://fig-nerf.github.io"
   arxiv: 2403.12891
   image: avil.jpg
