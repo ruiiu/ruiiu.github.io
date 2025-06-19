@@ -34,7 +34,7 @@
   title: "MMCD: Multi-Modal Collaborative Decision-Making for Connected Autonomy with Knowledge Distillation"
   venue: 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2025)
   venue_short: IROS, 2025
-  description: "A multi-modal collaborative decision-making approach for connected autonomy with cross-modal knowledge distillation."
+  description: "A multi-modal collaborative decision-making approach for connected autonomy."
   project_page: https://ruiiu.github.io/mmcd
   # arxiv: 2409.12092
   image: mmcd.png
