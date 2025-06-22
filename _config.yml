@@ -27,7 +27,7 @@ description: >-
   Previously, I earned my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I have also interned at Apple and Tencent Robotics X.
   
   
-  I work on Multimodal Learning, Imitation Learning, and Reinforcement Learning etc. 
+  I work on Multimodal Learning, Reinforcement Learning and Imitation Learning etc. 
   My goal is to advance AI-driven decision-making by improving performance, generalization, and robustness in real-world scenarios, such as Robotics and Autonomous Driving. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ruiiu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
