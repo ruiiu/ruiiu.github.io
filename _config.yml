@@ -28,7 +28,7 @@ description: >-
 
 
   I work on Multimodal Learning, Reinforcement Learning, and Imitation Learning etc., with the goal of improving the performance, generalization, and robustness of AI systems. 
-  My research focuses on real-world applications such as robotics, autonomous driving, and multimodal large language model (LLM) reasoning.
+  My work spans across robotics, autonomous driving, and multimodal large language model (LLM) reasoning.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ruiiu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: KeunhongP
