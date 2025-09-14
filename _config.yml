@@ -27,8 +27,7 @@ description: >-
   Previously, I earned my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I have also interned at Apple and Tencent Robotics X.
 
 
-  I work on Multimodal Learning, Reinforcement Learning, and Imitation Learning etc., with the goal of improving the performance, generalization, and robustness of AI systems. 
-  My work spans across robotics, autonomous driving, and multimodal large language model (LLM) reasoning.
+  I work on Multimodal Learning, Reinforcement Learning, and Imitation Learning etc. My work spans across multimodal large language model (LLM) reasoning, robotics, and autonomous driving. I aim to build autonomous AI agents.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ruiiu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: KeunhongP
