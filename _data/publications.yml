@@ -5,7 +5,7 @@
   # description: 
   project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
   # arxiv: 2509.07980
-  # image: acg.png
+  image: parallel.jpeg
   # image_mouseover: illuminerf_after.mp4
   authors:
     - tong
@@ -26,7 +26,7 @@
   # description: 
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
   arxiv: 2509.09675
-  # image: acg.png
+  image: cde.png
   # image_mouseover: illuminerf_after.mp4
   authors:
     - runpeng
@@ -48,7 +48,7 @@
   # description: 
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
   arxiv: 2508.19652
-  # image: acg.png
+  image: self.png
   # image_mouseover: illuminerf_after.mp4
   authors:
     - zongxia
