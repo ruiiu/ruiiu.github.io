@@ -77,3 +77,24 @@ runpeng:
   first_name: Runpeng
   last_name: Dai
   website: https://runpengdai.github.io/
+hongming:
+  first_name: Hongming
+  last_name: Zhang
+xiaoyang:
+  first_name: Xiaoyang
+  last_name: Wang
+heng:
+  first_name: Heng
+  last_name: Huang
+jingxi:
+  first_name: Jingxi
+  last_name: Chen
+jordan:
+  first_name: Jordan
+  last_name: Boyd-Graber
+linfeng:
+  first_name: Linfeng
+  last_name: Song
+zhengwen:
+  first_name: Zhengwen
+  last_name: Liang
