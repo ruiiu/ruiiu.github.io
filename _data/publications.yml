@@ -4,19 +4,19 @@
   venue_short: Preprint
   # description: 
   project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
-  arxiv: 2509.07980
+  # arxiv: 2509.07980
   # image: acg.png
   # image_mouseover: illuminerf_after.mp4
   authors:
     - tong
-    - Hongming Zhang
+    - hongming
     - wenhao
     - Xiaoyang Wang
     - runpeng
     - rui
-    - Huiwen Bao
+    - huiwen
     - chengsong
-    - Heng Huang
+    - heng
     - dong
 
 - id: aukt
