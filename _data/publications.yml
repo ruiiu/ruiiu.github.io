@@ -1,8 +1,8 @@
 - id: aukt
   title: "Adaptive Conformal Guidance: A Framework for Multi-Domain Learning under Uncertainty"
-  venue: Under Review
-  venue_short: Under Review
-  description: "A universal, plug-and-play framework that dynamically modulates guidance signals based on associated uncertainty, providing a simple yet effective solution for incorporating uncertainty-aware guidance across diverse machine learning domains."
+  venue: Preprint
+  venue_short: Preprint
+  description: "A broadly applicable framework that dynamically modulates guidance signals based on associated uncertainty, providing a simple yet effective solution for incorporating uncertainty-aware guidance across diverse machine learning systems."
   # project_page: https://ruiiu.github.io/imrl
   arxiv: 2502.16736
   image: acg.png
@@ -16,8 +16,8 @@
 
 - id: caml
   title: "CAML: Collaborative Auxiliary Modality Learning for Multi-Agent Systems"
-  venue: Under Review
-  venue_short: Under Review
+  venue: The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS, 2025)
+  venue_short: NeurIPS, 2025
   description: "A multi-modal multi-agent framework that enables agents to collaborate and share multimodal data during training while allowing inference with reduced modalities during testing, which is especially beneficial for deployment in resource-constrained environments."
   # project_page: https://ruiiu.github.io/imrl
   arxiv: 2502.17821
@@ -48,8 +48,8 @@
 
 - id: risk
   title: "Towards Efficient Risk-Sensitive Policy Gradient: An Iteration Complexity Analysis"
-  venue: Under Review
-  venue_short: Under Review
+  venue: Preprint
+  venue_short: Preprint
   description: "A thorough iteration complexity analysis for the risk-sensitive policy gradient method, focusing on the REINFORCE algorithm and employing the exponential utility function."
   project_page: https://ruiiu.github.io/riskrl
   arxiv: 2403.08955
