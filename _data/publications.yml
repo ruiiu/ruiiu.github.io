@@ -1,3 +1,24 @@
+- id: parallel-r1
+  title: "Parallel-R1: Towards Parallel Thinking via Reinforcement Learning"
+  venue: Preprint
+  venue_short: Preprint
+  # description: 
+  project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
+  arxiv: 2509.07980
+  # image: acg.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - tong
+    - Hongming Zhang
+    - wenhao
+    - Xiaoyang Wang
+    - runpeng
+    - rui
+    - Huiwen Bao
+    - chengsong
+    - Heng Huang
+    - dong
+
 - id: aukt
   title: "Adaptive Conformal Guidance: A Framework for Multi-Domain Learning under Uncertainty"
   venue: Preprint
