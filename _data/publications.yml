@@ -19,6 +19,50 @@
     - heng
     - dong
 
+- id: cde
+  title: "CDE: Curiosity-Driven Exploration for Efficient Reinforcement Learning in Large Language Models"
+  venue: Preprint
+  venue_short: Preprint
+  # description: 
+  # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
+  arxiv: 2509.09675
+  # image: acg.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - runpeng
+    - linfeng
+    - haolin
+    - zhenwen
+    - dian
+    - haitao
+    - zhaopeng
+    - rui
+    - tong
+    - hongtu
+    - dong
+
+- id: self
+  title: "Self-Rewarding Vision-Language Model via Reasoning Decomposition"
+  venue: Preprint
+  venue_short: Preprint
+  # description: 
+  # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
+  arxiv: 2508.19652
+  # image: acg.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - zongxia
+    - wenhao
+    - chengsong
+    - rui
+    - zhenwen
+    - fuxiao
+    - jingxi
+    - dian
+    - jordan
+    - haitao
+    - dong
+
 - id: aukt
   title: "Adaptive Conformal Guidance: A Framework for Multi-Domain Learning under Uncertainty"
   venue: Preprint
