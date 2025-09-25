@@ -42,4 +42,38 @@ vishnu:
 anish:
   first_name: Anish
   last_name: Gupta
-
+tong:
+  first_name: Tong
+  last_name: Zheng
+  website: https://kidzheng.github.io/
+dian:
+  first_name: Dian
+  last_name: Yu
+  website: https://sites.google.com/site/yudiandoris/
+dong:
+  first_name: Dong
+  last_name: Yu
+  website: https://scholar.google.com/citations?user=tMY31_gAAAAJ&hl=en
+wenhao:
+  first_name: Wenhao
+  last_name: Yu
+  website: https://wyu97.github.io/
+zongxia:
+  first_name: Zongxia
+  last_name: Li
+haolin:
+  first_name: Haolin
+  last_name: Liu
+  website: https://liuhl2000.github.io/
+haitao:
+  first_name: Haitao
+  last_name: Mi
+  website: https://scholar.google.com/citations?user=G3OMbFSm858C&hl=en
+chengsong:
+  first_name: Chengsong
+  last_name: Huang
+  webiste: https://chengsong-huang.github.io/
+runpeng:
+  first_name: Runpeng
+  last_name: Dai
+  website: https://runpengdai.github.io/
