@@ -1,3 +1,25 @@
+- id: self
+  title: "Self-Rewarding Vision-Language Model via Reasoning Decomposition"
+  venue: Preprint
+  venue_short: Preprint
+  # description: 
+  # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
+  arxiv: 2508.19652
+  image: self.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - zongxia
+    - wenhao
+    - chengsong
+    - rui
+    - zhenwen
+    - fuxiao
+    - jingxi
+    - dian
+    - jordan
+    - haitao
+    - dong
+    
 - id: parallel-r1
   title: "Parallel-R1: Towards Parallel Thinking via Reinforcement Learning"
   venue: Preprint
@@ -39,28 +61,6 @@
     - rui
     - tong
     - hongtu
-    - dong
-
-- id: self
-  title: "Self-Rewarding Vision-Language Model via Reasoning Decomposition"
-  venue: Preprint
-  venue_short: Preprint
-  # description: 
-  # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
-  arxiv: 2508.19652
-  image: self.png
-  # image_mouseover: illuminerf_after.mp4
-  authors:
-    - zongxia
-    - wenhao
-    - chengsong
-    - rui
-    - zhenwen
-    - fuxiao
-    - jingxi
-    - dian
-    - jordan
-    - haitao
     - dong
 
 - id: aukt
