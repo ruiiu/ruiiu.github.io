@@ -101,7 +101,7 @@
   venue_short: IROS, 2025
   description: "A multi-modal collaborative decision-making approach for connected autonomy."
   project_page: https://ruiiu.github.io/mmcd
-  # arxiv: 2409.12092
+  arxiv: 2509.18198
   image: mmcd.png
   # image_mouseover: illuminerf_after.mp4
   authors:
@@ -163,7 +163,7 @@
   title: "Data-Driven Distributionally Robust Optimal Control with State-Dependent Noise"
   venue: 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2023)
   venue_short: IROS, 2023
-  description: "A data-driven technique for estimating the uncertainty and bound for the KL divergence for distributionally robust optimal control."
+  description: "A data-driven technique for estimating the uncertainty distribution and bound for the KL divergence for distributionally robust optimal control (DROC)."
   # project_page: https://reconfusion.github.io
   arxiv: 2303.02293
   image: droc.png
