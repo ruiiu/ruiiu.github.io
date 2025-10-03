@@ -2,7 +2,7 @@
   title: "VOGUE: Guiding Exploration with Visual Uncertainty Improves Multimodal Reasoning"
   venue: Preprint
   venue_short: Preprint
-  # description: 
+  description: VOGUE, a method that shifts exploration to the visual input space by quantifying policy sensitivity to visual perturbations, enhances reasoning in multimodal large language models.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
   arxiv: 2510.01444
   image: vogue.pdf
