@@ -46,7 +46,7 @@
   title: "Parallel-R1: Towards Parallel Thinking via Reinforcement Learning"
   venue: Preprint
   venue_short: Preprint
-  description: A RL framework that enhances LLMs reasoning capabilities by enabling parallel thinking through a progressive curriculum, leading to significant performance improvements on math benchmarks.
+  description: A RL framework that enhances LLMs reasoning capabilities by enabling parallel thinking through a progressive curriculum.
   project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
   # arxiv: 2509.07980
   image: parallel.jpg
