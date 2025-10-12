@@ -2,7 +2,7 @@
   title: "VOGUE: Guiding Exploration with Visual Uncertainty Improves Multimodal Reasoning"
   venue: Preprint
   venue_short: Preprint
-  description: VOGUE, a method that shifts exploration to the visual input space by quantifying policy sensitivity to visual perturbations, enhances reasoning in multimodal large language models.
+  description: A method that shifts exploration to the visual input space by quantifying policy sensitivity to visual perturbations, enhances reasoning in multimodal LLMs.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
   arxiv: 2510.01444
   image: vogue.pdf
@@ -105,7 +105,7 @@
   title: "CAML: Collaborative Auxiliary Modality Learning for Multi-Agent Systems"
   venue: The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS, 2025)
   venue_short: NeurIPS, 2025
-  description: "A multi-modal multi-agent framework that enables agents to collaborate and share multimodal data during training while allowing inference with reduced modalities during testing, which is especially beneficial for deployment in resource-constrained environments."
+  description: "A multi-modal multi-agent framework that enables agents to collaborate and share multi-modal data during training while allowing inference with reduced modalities during testing, which is especially beneficial for deployment in resource-constrained environments."
   # project_page: https://ruiiu.github.io/imrl
   arxiv: 2502.17821
   image: caml.png
@@ -137,7 +137,7 @@
   title: "Towards Efficient Risk-Sensitive Policy Gradient: An Iteration Complexity Analysis"
   venue: Preprint
   venue_short: Preprint
-  description: "A thorough iteration complexity analysis for the risk-sensitive policy gradient method, focusing on the REINFORCE algorithm and employing the exponential utility function."
+  description: "A thorough iteration complexity analysis for the risk-sensitive policy gradient method."
   project_page: https://ruiiu.github.io/riskrl
   arxiv: 2403.08955
   image: riskrl.png
@@ -152,7 +152,7 @@
   title: "IMRL: Integrating Visual, Physical, Temporal, and Geometric Representations for Enhanced Food Acquisition"
   venue: 2025 IEEE International Conference on Robotics and Automation (ICRA, 2025)
   venue_short: ICRA, 2025
-  description: "A multi-dimensional Representation Learning approach that integrates visual, physical, temporal, and geometric representations to enhance the robustness and generalizability of Imitation Learning for food acquisition."
+  description: "A representation learning approach for robust imitation learning in robotic manipulation for food acquisition."
   project_page: https://ruiiu.github.io/imrl
   arxiv: 2409.12092
   image: imrl.png
@@ -167,7 +167,7 @@
   title: "LAVA: Long-horizon Visual Action based Food Acquisition"
   venue: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2024)
   venue_short: IROS, 2024
-  description: "Long-horizon Visual Action-based (LAVA) food acquisition of liquid, semisolid, and deformable foods."
+  description: "A long-horizon visual action learning approach for robotic manipulation in food acquisition of liquid, semisolid, and deformable foods."
   project_page: "https://raaslab.org/projects/RoboSpoon/"
   arxiv: 2403.12876
   image: lava.png
@@ -185,7 +185,7 @@
   title: "Data-Driven Distributionally Robust Optimal Control with State-Dependent Noise"
   venue: 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2023)
   venue_short: IROS, 2023
-  description: "A data-driven technique for estimating the uncertainty distribution and bound for the KL divergence for distributionally robust optimal control (DROC)."
+  description: "A data-driven technique for estimating the uncertainty distribution and corresponding KL divergence bound for distributionally robust optimal control (DROC)."
   # project_page: https://reconfusion.github.io
   arxiv: 2303.02293
   image: droc.png
@@ -199,7 +199,7 @@
   title: "Adaptive Visual Imitation Learning for Robotic Assisted Feeding Across Varied Bowl Configurations and Food Types"
   venue: 2024 IEEE International Conference on Robotics and Automation (Workshop)
   venue_short: ICRA, 2024
-  description: "An adaptive visual imitation learning approach that exhibits adaptability and robustness across different bowl configurations and diverse food types for robotic scooping."
+  description: "An adaptive visual imitation learning approach for robotic scooping tasks."
   # project_page: "https://fig-nerf.github.io"
   arxiv: 2403.12891
   image: avil.jpg
