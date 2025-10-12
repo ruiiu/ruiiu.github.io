@@ -199,7 +199,7 @@
   title: "Adaptive Visual Imitation Learning for Robotic Assisted Feeding Across Varied Bowl Configurations and Food Types"
   venue: 2024 IEEE International Conference on Robotics and Automation (Workshop)
   venue_short: ICRA, 2024
-  description: "An adaptive visual imitation learning approach for robotic scooping tasks."
+  description: "An adaptive visual imitation learning approach for robotic scooping tasks in assistive feeding."
   # project_page: "https://fig-nerf.github.io"
   arxiv: 2403.12891
   image: avil.jpg
