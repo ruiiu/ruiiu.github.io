@@ -44,8 +44,8 @@
     
 - id: parallel-r1
   title: "Parallel-R1: Towards Parallel Thinking via Reinforcement Learning"
-  venue: Preprint
-  venue_short: Preprint
+  venue: NeurIPS 2025 Efficient Reasoning Workshop
+  venue_short: NeurIPS, 2025
   description: A RL framework that enhances LLMs reasoning capabilities by enabling parallel thinking through a progressive curriculum.
   project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
   # arxiv: 2509.07980
@@ -65,8 +65,8 @@
 
 - id: cde
   title: "CDE: Curiosity-Driven Exploration for Efficient Reinforcement Learning in Large Language Models"
-  venue: Preprint
-  venue_short: Preprint
+  venue: NeurIPS 2025 MATH-AI Workshop
+  venue_short: NeurIPS, 2025
   description: CDE enhances Reinforcement Learning with Verifiable Rewards (RLVR) by using intrinsic curiosity signals from the actor and critic to improve exploration and reduce premature convergence in LLMs.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
   arxiv: 2509.09675
