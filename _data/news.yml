@@ -1,22 +1,22 @@
 - date: Sept 2025
   description: >-
-    One paper on [multimodal multi-agent systems](https://arxiv.org/abs/2502.17821) accepted to NeurIPS 2025.
+    One paper on multimodal multi-agent systems ([CAML](https://arxiv.org/abs/2502.17821)) accepted to NeurIPS 2025.
 
 - date: Jun 2025
   description: >-
-    One paper on [multimodal collaborative decision-making](https://ruiiu.github.io/mmcd/) accepted to IROS 2025.
+    One paper on multimodal collaborative decision-making ([MMCD](https://ruiiu.github.io/mmcd/)) accepted to IROS 2025.
 
 - date: Jan 2025
   description: >-
-    One paper on [robust imitation learning for robotic manipulation](https://ruiiu.github.io/imrl/) accepted to ICRA 2025.
+    One paper on robust imitation learning for robotic manipulation ([IMRL](https://ruiiu.github.io/imrl/)) accepted to ICRA 2025.
 
 - date: Jun 2024
   description: >-
-    One paper on [visual action learning for robotic manipulation](https://raaslab.org/projects/RoboSpoon/) accepted to IROS 2024.
+    One paper on visual action learning for robotic manipulation ([LAVA](https://raaslab.org/projects/RoboSpoon/)) accepted to IROS 2024.
 
 - date: Jun 2023
   description: >-
-    One paper on [distributionally robust optimal control](https://arxiv.org/pdf/2303.02293) accepted to IROS 2023.
+    One paper on distributionally robust optimal control ([D<sup>3</sup>ROC](https://arxiv.org/pdf/2303.02293)) accepted to IROS 2023.
     
 # - date: Jun 2020
 #   description: >-
