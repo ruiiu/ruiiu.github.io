@@ -6,6 +6,10 @@
   description: >-
     Three papers on (multimodal) LLMs reasoning are out. [Vision-SR1](https://arxiv.org/pdf/2508.19652) for VLM reasoning, 
     [Parallel-R1](https://zhengkid.github.io/Parallel_R1.github.io/#) for parallel thinking with RL, [CDE](https://arxiv.org/pdf/2509.09675) (Curiosity-Driven Exploration) for LLM reasoning. 
+
+- date: Sep 2025
+  description: >-
+    One paper on learning under uncertainty ([AdaConG](https://arxiv.org/pdf/2502.16736)) is out.
     
 - date: Sep 2025
   description: >-
