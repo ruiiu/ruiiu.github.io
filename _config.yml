@@ -27,7 +27,7 @@ description: >-
   Previously, I earned my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I have also interned at Apple, Tencent AI Lab and Tencent Robotics X.
 
 
-  I work on **Multimodal Learning**, **Reinforcement Learning**, and **Imitation Learning** etc. My work spans across **Multimodal LLMs Reasoning** and **Robotics**. I aim to build autonomous AI agents.
+  I work on **Multimodal Learning**, **Reinforcement Learning**, and **Imitation Learning** etc. My work spans across **Multimodal LLMs Reasoning** and **Robotics**. I aim to build robust autonomous agents.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ruiiu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: KeunhongP
