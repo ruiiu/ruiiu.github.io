@@ -15,6 +15,10 @@
   description: >-
     One paper on multimodal multi-agent systems ([CAML](https://arxiv.org/abs/2502.17821)) accepted to NeurIPS 2025.
 
+- date: Aug 2025
+  description: >-
+    One paper on [risk-sensitive policy gradient](https://arxiv.org/pdf/2403.08955) is out. 
+
 - date: Jun 2025
   description: >-
     One paper on multimodal collaborative decision-making ([MMCD](https://ruiiu.github.io/mmcd/)) accepted to IROS 2025.
