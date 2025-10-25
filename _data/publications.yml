@@ -65,7 +65,7 @@
 
 - id: cde
   title: "CDE: Curiosity-Driven Exploration for Efficient Reinforcement Learning in Large Language Models"
-  venue: The 5th Workshop on Mathematical Reasoning and AI (NeurIPS, 2025)
+  venue: <span style="color:blue">The 5th Workshop on Mathematical Reasoning and AI (NeurIPS, 2025)</span>
   venue_short: NeurIPS, 2025
   description: CDE enhances Reinforcement Learning with Verifiable Rewards (RLVR) by using intrinsic curiosity signals from the actor and critic to improve exploration and reduce premature convergence in LLMs.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
@@ -103,7 +103,7 @@
 
 - id: caml
   title: "CAML: Collaborative Auxiliary Modality Learning for Multi-Agent Systems"
-  venue: The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS, 2025)
+  venue: <span style="color:blue">The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS, 2025)</span>
   venue_short: NeurIPS, 2025
   description: "A multi-modal multi-agent framework that enables agents to collaborate and share multi-modal data during training while allowing inference with reduced modalities during testing, which is especially beneficial for deployment in resource-constrained environments."
   # project_page: https://ruiiu.github.io/imrl
@@ -119,7 +119,7 @@
 
 - id: mmcd
   title: "MMCD: Multi-Modal Collaborative Decision-Making for Connected Autonomy with Knowledge Distillation"
-  venue: 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2025)
+  venue: <span style="color:blue">2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2025)</span>
   venue_short: IROS, 2025
   description: "A multi-modal collaborative decision-making approach for connected autonomy."
   project_page: https://ruiiu.github.io/mmcd
@@ -135,7 +135,7 @@
 
 - id: imrl
   title: "IMRL: Integrating Visual, Physical, Temporal, and Geometric Representations for Enhanced Food Acquisition"
-  venue: 2025 IEEE International Conference on Robotics and Automation (ICRA, 2025)
+  venue: <span style="color:blue">2025 IEEE International Conference on Robotics and Automation (ICRA, 2025)</span>
   venue_short: ICRA, 2025
   description: "A representation learning approach for robust imitation learning in robotic manipulation for food acquisition."
   project_page: https://ruiiu.github.io/imrl
@@ -165,7 +165,7 @@
 
 - id: lava
   title: "LAVA: Long-horizon Visual Action based Food Acquisition"
-  venue: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2024)
+  venue: <span style="color:blue">2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2024)</span>
   venue_short: IROS, 2024
   description: "A long-horizon visual action learning approach for robotic manipulation in food acquisition of liquid, semisolid, and deformable foods."
   project_page: "https://raaslab.org/projects/RoboSpoon/"
@@ -183,7 +183,7 @@
     
 - id: droc
   title: "Data-Driven Distributionally Robust Optimal Control with State-Dependent Noise"
-  venue: 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2023)
+  venue: <span style="color:blue">2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2023)</span>
   venue_short: IROS, 2023
   description: "A data-driven technique for estimating the uncertainty distribution and corresponding KL divergence bound for distributionally robust optimal control (DROC)."
   # project_page: https://reconfusion.github.io
@@ -197,7 +197,7 @@
 
 - id: avil
   title: "Adaptive Visual Imitation Learning for Robotic Assisted Feeding Across Varied Bowl Configurations and Food Types"
-  venue: 2024 IEEE International Conference on Robotics and Automation (Workshop)
+  venue: <span style="color:blue">2024 IEEE International Conference on Robotics and Automation (Workshop)</span>
   venue_short: ICRA, 2024
   description: "An adaptive visual imitation learning approach for robotic scooping tasks in assistive feeding."
   # project_page: "https://fig-nerf.github.io"
