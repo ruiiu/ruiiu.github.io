@@ -44,7 +44,7 @@
     
 - id: parallel-r1
   title: "Parallel-R1: Towards Parallel Thinking via Reinforcement Learning"
-  venue: <span style="color:skyblue">The 1st Workshop on Efficient Reasoning (NeurIPS, 2025)</span>
+  venue: <span style="color:deepskyblue">The 1st Workshop on Efficient Reasoning (NeurIPS, 2025)</span>
   venue_short: NeurIPS, 2025
   description: A RL framework that enhances LLMs reasoning capabilities by enabling parallel thinking through a progressive curriculum.
   project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
