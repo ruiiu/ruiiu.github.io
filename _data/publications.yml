@@ -1,3 +1,23 @@
+- id: mssr
+  title: "Stable and Efficient Single-Rollout RL for Multimodal Reasoning"
+  venue: Preprint
+  venue_short: Preprint
+  description: A group-free RLVR approach that achieves both stable optimization and effective multimodal reasoning performance.
+  # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
+  arxiv: 2512.18215
+  image: mssr.jpg
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - rui
+    - dian
+    - lei
+    - haolin
+    - yujun
+    - zhenwen
+    - haitao
+    - pratap
+    - dong
+    
 - id: vogue
   title: "VOGUE: Guiding Exploration with Visual Uncertainty Improves Multimodal Reasoning"
   venue: Preprint
