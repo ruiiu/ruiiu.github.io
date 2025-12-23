@@ -25,7 +25,7 @@
   description: A method that shifts exploration to the visual input space by quantifying policy sensitivity to visual perturbations, enhances reasoning in multimodal LLMs.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
   arxiv: 2510.01444
-  image: vogue.pdf
+  image: vogue.jpg
   # image_mouseover: illuminerf_after.mp4
   authors:
     - rui
