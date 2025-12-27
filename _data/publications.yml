@@ -3,7 +3,7 @@
   venue: Preprint
   venue_short: Preprint
   description: A group-free RLVR approach that achieves both stable optimization and effective multimodal reasoning performance.
-  # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
+  project_page: https://mssr-proj.github.io
   arxiv: 2512.18215
   image: mssr.jpg
   # image_mouseover: illuminerf_after.mp4
