@@ -43,7 +43,7 @@
 
 - id: self
   title: "Self-Rewarding Vision-Language Model via Reasoning Decomposition"
-  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations</span>
+  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations (ICLR, 2026)</span>
   venue_short: ICLR, 2026
   description: Vision-SR1 uses RL to enhance reasoning in vision-language models by decomposing the process into visual perception and language reasoning stages, improving accuracy and reducing hallucinations.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
@@ -65,7 +65,7 @@
     
 - id: parallel-r1
   title: "Parallel-R1: Towards Parallel Thinking via Reinforcement Learning"
-  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations</span>
+  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations (ICLR, 2026)</span>
   venue_short: ICLR, 2026
   description: A RL framework that enhances LLMs reasoning capabilities by enabling parallel thinking through a progressive curriculum.
   project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
@@ -86,7 +86,7 @@
 
 - id: cde
   title: "CDE: Curiosity-Driven Exploration for Efficient Reinforcement Learning in Large Language Models"
-  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations</span>
+  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations (ICLR, 2026)</span>
   venue_short: ICLR, 2026
   description: CDE enhances Reinforcement Learning with Verifiable Rewards (RLVR) by using intrinsic curiosity signals from the actor and critic to improve exploration and reduce premature convergence in LLMs.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
@@ -108,7 +108,7 @@
 
 - id: aukt
   title: "Adaptive Conformal Guidance for Learning under Uncertainty"
-  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations</span>
+  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations (ICLR, 2026)</span>
   venue_short: ICLR, 2026
   description: "A broadly applicable framework that dynamically modulates guidance signals based on associated uncertainty, providing a simple yet effective solution for incorporating uncertainty-aware guidance across diverse machine learning systems."
   # project_page: https://ruiiu.github.io/imrl
