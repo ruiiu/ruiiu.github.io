@@ -1,6 +1,6 @@
 - id: dupl
   title: "Dual-Uncertainty Guided Policy Learning for Multimodal Reasoning"
-  venue: Preprint
+  venue: Preprint, 2026
   venue_short: Preprint
   description: A method that guides policy learning using measured dual-uncertainty (output and perceptual) as feedback signals to encourage exploration and enhance reasoning in multimodal LLMs.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
@@ -22,8 +22,8 @@
     
 - id: mssr
   title: "Stable and Efficient Single-Rollout RL for Multimodal Reasoning"
-  venue: Preprint
-  venue_short: Preprint
+  venue: Preprint, 2025
+  venue_short: Preprint, 2025
   description: A group-free RLVR approach that achieves both stable optimization and effective multimodal reasoning performance.
   project_page: https://mssr-proj.github.io
   arxiv: 2512.18215
@@ -39,7 +39,49 @@
     - haitao
     - pratap
     - dong
-    
+
+- id: probe
+  title: "Parallel-Probe: Towards Efficient Parallel Thinking via 2D Probing"
+  venue: Preprint, 2026
+  venue_short: Preprint, 2026
+  description: A training-free controller for efficient parallel thinking by using consensus-based early stopping and deviation-based branch pruning to reduce computational costs while maintaining accuracy.
+  project_page: https://huggingface.co/spaces/EfficientReasoning/efficient_reasoning_online_judgement
+  arxiv: 2602.03845
+  image: parallel_probe.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - tong
+    - chengsong
+    - runpeng
+    - yunhe
+    - rui
+    - xinni
+    - huiwen
+    - kaishen
+    - hongtu
+    - jiaxin
+    - furong
+    - heng
+
+- id: prefix
+  title: "Save the Good Prefix: Precise Error Penalization via Process-Supervised RL to Enhance LLM Reasoning"
+  venue: Preprint, 2026
+  venue_short: Preprint, 2026
+  description: An LLM training framework that improves reasoning by using Process Reward Models (PRMs) to identify the first error in a chain-of-thought, penalizing only the subsequent incorrect steps while rewarding the preceding good prefix.
+  # project_page:
+  arxiv: 2601.18984
+  image: prefix.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - haolin
+    - dian
+    - sidi
+    - yujun
+    - rui
+    - zhenwen
+    - haitao
+    - chenyu
+    - dong
 
 - id: self
   title: "Self-Rewarding Vision-Language Model via Reasoning Decomposition"
@@ -171,8 +213,8 @@
 
 - id: risk
   title: "Towards Efficient Risk-Sensitive Policy Gradient: An Iteration Complexity Analysis"
-  venue: Preprint
-  venue_short: Preprint
+  venue: Preprint, 2025
+  venue_short: Preprint, 2025
   description: "A thorough iteration complexity analysis for the risk-sensitive policy gradient method."
   project_page: https://ruiiu.github.io/riskrl
   arxiv: 2403.08955
