@@ -40,6 +40,20 @@
     - pratap
     - dong
 
+- id: a2maml
+  title: "Active Asymmetric Multi-Agent Multimodal Learning under Uncertainty"
+  venue: Preprint, 2026
+  venue_short: Preprint, 2026
+  description:  We propose Active Asymmetric Multi-Agent Multimodal Learning under Uncertainty (A2MAML), a principled approach for uncertainty-aware, modality-level collaboration.
+  # project_page: https://mssr-proj.github.io
+  arxiv: 2602.04763
+  image: a2maml.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - rui
+    - pratap
+    - ming
+
 - id: probe
   title: "Parallel-Probe: Towards Efficient Parallel Thinking via 2D Probing"
   venue: Preprint, 2026
