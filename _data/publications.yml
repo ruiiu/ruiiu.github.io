@@ -22,8 +22,8 @@
     
 - id: mssr
   title: "Stable and Efficient Single-Rollout RL for Multimodal Reasoning"
-  venue: Preprint, 2025
-  venue_short: Preprint, 2025
+  venue: <span style="color:blue">The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (CVPR, 2026)</span>
+  venue_short: CVPR, 2026
   description: A group-free RLVR approach that achieves both stable optimization and effective multimodal reasoning performance.
   project_page: https://mssr-proj.github.io
   arxiv: 2512.18215
