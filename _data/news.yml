@@ -1,5 +1,9 @@
 - date: Feb 2026
   description: >-
+    [MSSR](https://arxiv.org/pdf/2512.18215) (Multimodal Stabilized Single-Rollout) accepted to CVPR 2026. 
+
+- date: Feb 2026
+  description: >-
     Three new papers out. [A2MAML](https://arxiv.org/pdf/2602.04763) for multi-agent multimodal systems, [Parallel-Probe](https://arxiv.org/pdf/2602.03845) for efficient parallel-thinking, [VPPO](https://arxiv.org/pdf/2601.18984) for LLM reasoning with PRM.
     
 - date: Jan 2026
