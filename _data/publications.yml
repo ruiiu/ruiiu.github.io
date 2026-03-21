@@ -54,6 +54,22 @@
     - pratap
     - ming
 
+- id: adacong
+  title: "Adaptive Conformal Guidance for Learning under Uncertainty"
+  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations (ICLR, 2026)</span>
+  venue_short: ICLR, 2026
+  description: "A broadly applicable framework that dynamically modulates guidance signals based on associated uncertainty, providing a simple yet effective solution for incorporating uncertainty-aware guidance across diverse machine learning systems."
+  # project_page: https://ruiiu.github.io/imrl
+  arxiv: 2502.16736
+  image: acg.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - rui
+    - peng
+    - yu
+    - ming
+    - pratap
+
 - id: probe
   title: "Parallel-Probe: Towards Efficient Parallel Thinking via 2D Probing"
   venue: Preprint, 2026
@@ -119,21 +135,6 @@
     - haitao
     - dong
 
-- id: adacong
-  title: "Adaptive Conformal Guidance for Learning under Uncertainty"
-  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations (ICLR, 2026)</span>
-  venue_short: ICLR, 2026
-  description: "A broadly applicable framework that dynamically modulates guidance signals based on associated uncertainty, providing a simple yet effective solution for incorporating uncertainty-aware guidance across diverse machine learning systems."
-  # project_page: https://ruiiu.github.io/imrl
-  arxiv: 2502.16736
-  image: acg.png
-  # image_mouseover: illuminerf_after.mp4
-  authors:
-    - rui
-    - peng
-    - yu
-    - ming
-    - pratap
 
 - id: parallel-r1
   title: "Parallel-R1: Towards Parallel Thinking via Reinforcement Learning"
