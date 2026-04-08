@@ -95,8 +95,8 @@
 
 - id: prefix
   title: "Save the Good Prefix: Precise Error Penalization via Process-Supervised RL to Enhance LLM Reasoning"
-  venue: Preprint, 2026
-  venue_short: Preprint, 2026
+  venue: <span style="color:blue">The 64th Annual Meeting of the Association for Computational Linguistics (ACL Findings, 2026)</span>
+  venue_short: ACL Findings, 2026
   description: An LLM training framework that improves reasoning by using Process Reward Models (PRMs) to identify the first error in a chain-of-thought, penalizing only the subsequent incorrect steps while rewarding the preceding good prefix.
   # project_page:
   arxiv: 2601.18984
