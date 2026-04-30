@@ -72,8 +72,8 @@
 
 - id: probe
   title: "Parallel-Probe: Towards Efficient Parallel Thinking via 2D Probing"
-  venue: Preprint, 2026
-  venue_short: Preprint, 2026
+  venue: ICML, 2026
+  venue_short: <span style="color:blue">Forty-Third International Conference on Machine Learning (ICML, 2026)</span>
   description: A training-free controller for efficient parallel thinking by using consensus-based early stopping and deviation-based branch pruning to reduce computational costs while maintaining accuracy.
   project_page: https://huggingface.co/spaces/EfficientReasoning/efficient_reasoning_online_judgement
   arxiv: 2602.03845
