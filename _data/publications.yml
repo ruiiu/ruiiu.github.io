@@ -3,8 +3,8 @@
   venue: Preprint, 2026
   venue_short: Preprint, 2026
   description: We propose DeltaRubric, a novel approach that reframes multimodal evaluation as an active, two-step visual investigation through a single shared MLLM, leveraging self-generated rubrics as guidance. 
-  # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
-  # arxiv: 2510.01444
+  project_page: https://deltarubric.github.io
+  arxiv: 2605.09269
   image: deltarubric.png
   # image_mouseover: illuminerf_after.mp4
   authors:
@@ -24,7 +24,7 @@
   venue_short: Preprint, 2026
   description: We propose ROMA, an RL fine-tuning approach for MLLMs that enforces robustness to visual degradation.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
-  # arxiv: 2510.01444
+  arxiv: 2605.09262
   image: roma.png
   # image_mouseover: illuminerf_after.mp4
   authors:
