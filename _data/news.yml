@@ -1,6 +1,6 @@
 - date: May 2026
   description: >-
-    Three new papers out. One on multimodal reward modeling with self-generated rubrics ([DeltaRubric](https://arxiv.org/pdf/2605.09269)). One on mulitmodal reasoning robustness ([ROMA](https://arxiv.org/pdf/2605.09262)). 
+    Three new papers out. One on multimodal reward modeling with self-generated, self-evolving rubrics ([DeltaRubric](https://arxiv.org/pdf/2605.09269)). One on mulitmodal reasoning robustness ([ROMA](https://arxiv.org/pdf/2605.09262)). 
     One on automated test-time scaling ([AutoTTS](https://arxiv.org/pdf/2605.08083)).
     
 - date: Apr 2026
