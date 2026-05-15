@@ -114,7 +114,7 @@
   title: "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling"
   venue: Preprint, 2026
   venue_short: Preprint, 2026
-  description: We propose an environment-driven framework, AutoTTS, that changes what researchers design: from individual TTS heuristics to environments where TTS strategies can be discovered  automatically.
+  description: "We propose an environment-driven framework, AutoTTS, that changes what researchers design: from individual TTS heuristics to environments where TTS strategies can be discovered  automatically."
   project_page: https://zhengkid.github.io/AutoTTS-web/
   arxiv: 2605.08083
   image: autotts.png
