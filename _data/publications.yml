@@ -110,6 +110,30 @@
     - ming
     - pratap
 
+- id: autotts
+  title: "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling"
+  venue: Preprint, 2026
+  venue_short: Preprint, 2026
+  description: We propose an environment-driven framework, AutoTTS, that changes what researchers design: from individual TTS heuristics to environments where TTS strategies can be discovered  automatically.
+  project_page: https://zhengkid.github.io/AutoTTS-web/
+  arxiv: 2605.08083
+  image: autotts.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - tong
+    - haolin
+    - chengsong
+    - huiwen
+    - sheng
+    - rui
+    - runpeng
+    - ruibo
+    - chenxi
+    - tianyi
+    - xidong
+    - hongming
+    - heng
+
 - id: probe
   title: "Parallel-Probe: Towards Efficient Parallel Thinking via 2D Probing"
   venue: <span style="color:blue">Forty-Third International Conference on Machine Learning (ICML, 2026)</span>
