@@ -134,6 +134,7 @@
   description: "We propose an environment-driven framework, AutoTTS, that changes what researchers design: from individual TTS heuristics to environments where TTS strategies can be discovered  automatically."
   project_page: https://zhengkid.github.io/AutoTTS-web/
   arxiv: 2605.08083
+  github: zhengkid/AutoTTS
   image: autotts.png
   # image_mouseover: illuminerf_after.mp4
   authors:
@@ -158,6 +159,7 @@
   description: A training-free controller for efficient parallel thinking by using consensus-based early stopping and deviation-based branch pruning to reduce computational costs while maintaining accuracy.
   project_page: https://huggingface.co/spaces/EfficientReasoning/efficient_reasoning_online_judgement
   arxiv: 2602.03845
+  github: zhengkid/Parallel-Probe
   image: parallel_probe.png
   # image_mouseover: illuminerf_after.mp4
   authors:
@@ -223,7 +225,8 @@
   venue_short: ICLR, 2026
   description: A RL framework that enhances LLMs reasoning capabilities by enabling parallel thinking through a progressive curriculum.
   project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
-  # arxiv: 2509.07980
+  arxiv: 2509.07980
+  github: zhengkid/Parallel-R1
   image: parallel.jpg
   # image_mouseover: illuminerf_after.mp4
   authors:
