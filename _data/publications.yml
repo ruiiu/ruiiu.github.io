@@ -111,7 +111,7 @@
     - ming
     - pratap
 
-- id: simple
+- id: small
   title: "Small RL Controller, Large Language Model: RL-Guided Adaptive Sampling for Test-Time Scaling"
   venue: Preprint, 2026
   venue_short: Preprint, 2026
@@ -119,7 +119,7 @@
   # project_page: https://ruiiu.github.io/imrl
   github: RunpengDai/RL-Guided-Adaptive-Sampling
   arxiv: 2606.03102
-  image: simple.png
+  image: small.png
   # image_mouseover: illuminerf_after.mp4
   authors:
     - runpeng
