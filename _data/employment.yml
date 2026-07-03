@@ -1,10 +1,10 @@
 - company: Tencent Hunyuan LLM Frontier
-  description: Research Intern. Working on (multimodal) LLMs reasoning, reward modeling, post-training with RL. 
+  description: Research Intern. Working on (multimodal) LLMs reasoning, reward modeling, post-training, RL. 
   dates: "Feb 2026 - Now"
   location: Bellevue, WA
   
 - company: Tencent AI Lab
-  description: Research Intern. Working on (multimodal) LLMs reasoning, post-training with RL. 
+  description: Research Intern. Working on (multimodal) LLMs reasoning, post-training, RL. 
   dates: "May 2025 - Nov 2025"
   location: Bellevue, WA
 
@@ -14,7 +14,7 @@
   location: Cupertino, CA
 
 - company: University of Maryland, College Park
-  description: Graduate Research Assistant. Working on AI, ML and Robotics. 
+  description: Graduate Research Assistant. Working on RL, Multimodal ML and Robotics. 
   dates: "Aug 2022 - Now"
   location: College Park, MD
 
@@ -23,12 +23,12 @@
   dates: "Jun 2020 - Nov 2020"
   location: Shenzhen, China
 
-- company: The Chinese Unversity of Hong Kong
-  description: Research Intern. Worked on surgical robotics motion planning. 
-  dates: "Jul 2019 - Sep 2019"
-  location: Hong Kong, China
+# - company: The Chinese Unversity of Hong Kong
+#   description: Research Intern. Worked on surgical robotics motion planning. 
+#   dates: "Jul 2019 - Sep 2019"
+#   location: Hong Kong, China
 
-- company: Shanghai Jiao Tong University
-  description: Research Assistant. Worked on electric vehicle heat pump systems.
-  dates: "Mar 2019 - May 2020"
-  location: Shanghai, China
+# - company: Shanghai Jiao Tong University
+#   description: Research Assistant. Worked on electric vehicle heat pump systems.
+#   dates: "Mar 2019 - May 2020"
+#   location: Shanghai, China
