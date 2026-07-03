@@ -23,10 +23,10 @@
   dates: "Jun 2020 - Nov 2020"
   location: Shenzhen, China
 
-# - company: The Chinese Unversity of Hong Kong
-#   description: Research Intern. Worked on surgical robotics motion planning. 
-#   dates: "Jul 2019 - Sep 2019"
-#   location: Hong Kong, China
+- company: The Chinese Unversity of Hong Kong
+  description: Research Intern. Worked on surgical robotics motion planning. 
+  dates: "Jul 2019 - Sep 2019"
+  location: Hong Kong, China
 
 # - company: Shanghai Jiao Tong University
 #   description: Research Assistant. Worked on electric vehicle heat pump systems.
