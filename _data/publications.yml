@@ -264,6 +264,23 @@
     - hongtu
     - dong
 
+- id: plug
+  title: "Plug-and-Play Reweighting for Resilient Collaborative Decision-Making in Connected Autonomous Driving"
+  venue: <span style="color:blue">2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2026)</span>
+  venue_short: IROS, 2026
+  description: "A collaborative decision-making framework for multi-agent systems, such as connected autonomous vehicles."
+  # project_page: https://ruiiu.github.io/imrl
+  arxiv: 2607.10037
+  image: plug.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - jiewen
+    - rui
+    - matthew
+    - ming
+    - xiaorui
+    - peng
+
 - id: caml
   title: "CAML: Collaborative Auxiliary Modality Learning for Multi-Agent Systems"
   venue: <span style="color:blue">The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS, 2025)</span>
