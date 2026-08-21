@@ -40,8 +40,8 @@
 
 - id: dupl
   title: "Dual-Uncertainty Guided Policy Learning for Multimodal Reasoning"
-  venue: Preprint, 2026
-  venue_short: Preprint, 2026
+  venue: <span style="color:blue">The 2026 Conference on Empirical Methods in Natural Language Processing</span>
+  venue_short: EMNLP Findings, 2026
   description: A method that guides policy learning using measured dual-uncertainty (output and perceptual) as feedback signals to encourage exploration and enhance reasoning in multimodal LLMs.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
   arxiv: 2510.01444
@@ -113,8 +113,8 @@
 
 - id: small
   title: "Small RL Controller, Large Language Model: RL-Guided Adaptive Sampling for Test-Time Scaling"
-  venue: Preprint, 2026
-  venue_short: Preprint, 2026
+  venue: <span style="color:blue">The 2026 Conference on Empirical Methods in Natural Language Processing</span>
+  venue_short: EMNLP, 2026
   description: We train a lightweight sampling controller with RL to jointly balance answer correctness, latency, and computation cost for test-time scaling.
   # project_page: https://ruiiu.github.io/imrl
   github: RunpengDai/RL-Guided-Adaptive-Sampling
