@@ -18,6 +18,24 @@
     - pratap
     - leo
 
+- id: lipsync
+  title: Align Then Reason: A Multimodal Lip-Sync Judge for Dubbing
+  venue: Preprint, 2026
+  venue_short: Preprint, 2026
+  description: We propose ATR, a temporally grounded multimodal multilingual lip-sync judge for dubbing. 
+  # project_page: https://deltarubric.github.io
+  arxiv: 2610.00825
+  image: lipsync.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - rui
+    - bhavin
+    - haoqi
+    - shivam
+    - karan
+    - yinghong
+    - cameron
+
 - id: roma
   title: "Reinforcing Multimodal Reasoning Against Visual Degradation"
   venue: <span style="color:blue">The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS, 2026)</span>
