@@ -19,7 +19,7 @@
     - leo
 
 - id: lipsync
-  title: Align Then Reason: A Multimodal Lip-Sync Judge for Dubbing
+  title: "Align Then Reason: A Multimodal Lip-Sync Judge for Dubbing"
   venue: Preprint, 2026
   venue_short: Preprint, 2026
   description: We propose ATR, a temporally grounded multimodal multilingual lip-sync judge for dubbing. 
