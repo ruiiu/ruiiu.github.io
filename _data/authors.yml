@@ -98,6 +98,7 @@ linfeng:
 zhenwen:
   first_name: Zhenwen
   last_name: Liang
+  website: https://zhenwen-nlp.github.io/
 hongtu:
   first_name: Hongtu
   last_name: Zhu
@@ -141,6 +142,7 @@ chenyu:
 yucheng:
   first_name: Yucheng
   last_name: Shi
+  website: https://sycny.github.io/
 leo:
   first_name: Leoweiliang
 sheng:
