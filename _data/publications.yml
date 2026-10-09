@@ -36,6 +36,21 @@
     - yinghong
     - cameron
 
+- id: care
+  title: "CARE: Certifying Acceleration for Vision-Language-Action Inference"
+  venue: Preprint, 2026
+  venue_short: Preprint, 2026
+  description: We propose CARE, a training-free approach for certifying acceleration for VLA inference while preserving with confidence that acceleration does not break tasks. 
+  # project_page: https://deltarubric.github.io
+  arxiv: 2610.08917
+  image: care2.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - rui
+    - tong
+    - jindong
+    - zhipeng
+
 - id: roma
   title: "Reinforcing Multimodal Reasoning Against Visual Degradation"
   venue: <span style="color:blue">The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS, 2026)</span>
