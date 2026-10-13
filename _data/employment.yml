@@ -1,30 +1,35 @@
-- company: Tencent Hunyuan LLM Frontier
-  description: Research Intern. Working on (multimodal) LLMs reasoning, RL, post-training, reward modeling. 
-  dates: "Feb 2026 - Now"
+- company: Netflix Research
+  description: Research Intern. LLMs post-training, reasoning, reward modeling. 
+  dates: "Summer 2026"
+  location: Los Gatos, CA
+
+- company: Tencent Hunyuan LLM Frontier & AI Lab
+  description: Research Intern. LLMs post-training, RL, reasoning, agentic AI, reward modeling. 
+  dates: "May 2025 - May 2026"
   location: Bellevue, WA
   
-- company: Tencent AI Lab
-  description: Research Intern. Working on (multimodal) LLMs reasoning, RL, post-training. 
-  dates: "May 2025 - Nov 2025"
-  location: Bellevue, WA
+# - company: Tencent AI Lab
+#   description: Research Intern. Working on (multimodal) LLMs reasoning, RL, post-training. 
+#   dates: "May 2025 - Nov 2025"
+#   location: Bellevue, WA
 
 - company: Apple
-  description: Research Intern. Worked on ML algorithms development and data analysis. 
+  description: Research Intern. ML algorithms development and data analysis. 
   dates: "May 2023 - Aug 2023"
   location: Cupertino, CA
 
 - company: University of Maryland, College Park
-  description: Graduate Research Assistant. Working on RL, Multimodal ML and Robotics. 
+  description: Graduate Research Assistant. RL, Agents, Multimodal ML and Robotics. 
   dates: "Aug 2022 - Now"
   location: College Park, MD
 
 - company: Tencent Robotics X
-  description: Research Intern. Worked on quadruped robotics algorithms development and gait planning.
+  description: Research Intern. Quadruped robotics algorithms development and gait planning.
   dates: "Jun 2020 - Nov 2020"
   location: Shenzhen, China
 
 - company: The Chinese Unversity of Hong Kong
-  description: Research Intern. Worked on surgical robotics motion planning. 
+  description: Research Intern. Surgical robotics motion planning. 
   dates: "Jul 2019 - Sep 2019"
   location: Hong Kong, China
 
