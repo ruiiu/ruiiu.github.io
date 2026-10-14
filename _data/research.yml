@@ -10,9 +10,9 @@
 
 - title: Reward modeling and verification
   description: >-
-    Generative reward models that plan and verify with self-generated rubrics, process supervision
-    that locates the first error, and self-rewarding vision-language models.
-  papers: [deltarubric, prefix, self]
+    Generative reward models that plan and verify with self-generated rubrics, multimodal judges,
+    process supervision that locates the first error, and self-rewarding vision-language models.
+  papers: [deltarubric, lipsync, prefix, self]
 
 - title: Agentic LLMs and recursive self-improvement
   description: >-

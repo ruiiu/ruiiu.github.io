@@ -53,6 +53,8 @@
 
 - id: lipsync
   short: "ATR"
+  selected: true
+  theme: Reward modeling
   title: "Align Then Reason: A Multimodal Lip-Sync Judge for Dubbing"
   venue: Preprint, 2026
   venue_short: Preprint, 2026
