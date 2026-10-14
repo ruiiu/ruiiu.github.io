@@ -167,7 +167,9 @@ img { max-width: 100%; display: block; }
   font-variation-settings: "opsz" 36;
 }
 
+.bio { margin-top: 2.25rem; }
 .bio p { margin: 0 0 1rem; max-width: 42rem; }
+.bio strong { font-weight: 650; }
 
 /* ---------- Sections ---------- */
 

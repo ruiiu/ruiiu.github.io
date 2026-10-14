@@ -22,10 +22,6 @@ title: Rui Liu
 name: Rui Liu
 position: Ph.D. candidate in Computer Science, University of Maryland
 email: ruiliu@umd.edu
-# One-line research statement shown large at the top of the homepage.
-statement: >-
-  I work on post-training large language models: reinforcement learning, reward modeling,
-  and agentic LLMs that can recursively improve themselves.
 description: >-
   I am a Ph.D. candidate in [Computer Science](https://www.cs.umd.edu/) at the University of Maryland, College Park,
   advised by Prof. [Pratap Tokekar](http://tokekar.com) and Prof. [Ming Lin](https://www.cs.umd.edu/~lin).
@@ -33,9 +29,10 @@ description: >-
   and I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/).
 
 
-  A common thread in my work is reliability: making RL for LLMs stable and sample-efficient, rewards harder to game,
-  and reasoning robust to noisy or degraded inputs. This grows out of my earlier work on robust and multimodal learning
-  for multi-agent systems and robotics.
+  My research focuses on **post-training large language models**: **reinforcement learning**, **reward modeling**,
+  and **agentic LLMs** that can **recursively improve themselves**. A common thread is reliability: making RL for LLMs
+  stable and sample-efficient, rewards harder to game, and reasoning robust to noisy or degraded inputs. This grows out
+  of my earlier work on robust and multimodal learning for multi-agent systems and robotics.
 # Short version used for search engines and link previews.
 meta_description: >-
   Rui Liu, Ph.D. candidate at the University of Maryland working on LLM post-training, reinforcement learning,
