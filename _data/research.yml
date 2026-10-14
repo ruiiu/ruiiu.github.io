@@ -1,0 +1,21 @@
+# Research themes shown on the homepage. `papers` are publication ids from
+# publications.yml: selected papers link to their entry on the page, others to arXiv.
+
+- title: RL for LLM post-training
+  description: >-
+    Stable, efficient reinforcement learning with verifiable rewards for (multimodal) reasoning:
+    group-free single-rollout optimization, uncertainty- and curiosity-driven exploration,
+    parallel thinking, and robustness to degraded inputs.
+  papers: [mssr, roma, dupl, cde, parallel-r1]
+
+- title: Reward modeling and verification
+  description: >-
+    Generative reward models that plan and verify with self-generated rubrics, process supervision
+    that locates the first error, and self-rewarding vision-language models.
+  papers: [deltarubric, prefix, self]
+
+- title: Agentic LLMs and recursive self-improvement
+  description: >-
+    LLM agents that discover their own test-time scaling strategies and improve their exploration
+    policies by replaying their own discovery history.
+  papers: [dream-rsi, autotts, small]

@@ -20,14 +20,28 @@
 
 title: Rui Liu
 name: Rui Liu
-position: Ph.D. student 
+position: Ph.D. candidate in Computer Science, University of Maryland
 email: ruiliu@umd.edu
+# One-line research statement shown large at the top of the homepage.
+statement: >-
+  I work on post-training large language models: reinforcement learning, reward modeling,
+  and agentic LLMs that can recursively improve themselves.
 description: >-
-  I am a Ph.D. candidate in [Computer Science](https://www.cs.umd.edu/) at the University of Maryland, College Park, working with Prof. [Pratap Tokekar](http://tokekar.com) and Prof. [Ming Lin](https://www.cs.umd.edu/~lin). 
-  Previously, I earned my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I have also interned at Apple, Tencent Hunyuan LLM Frontier, AI Lab and Robotics X.
+  I am a Ph.D. candidate in [Computer Science](https://www.cs.umd.edu/) at the University of Maryland, College Park,
+  advised by Prof. [Pratap Tokekar](http://tokekar.com) and Prof. [Ming Lin](https://www.cs.umd.edu/~lin).
+  I have interned at Netflix Research, Tencent Hunyuan LLM Frontier and AI Lab, Apple, and Tencent Robotics X,
+  and I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/).
 
 
-  I work on **Reinforcement Learning**, **Multimodal Learning**, and **Robust Learning** etc. My work spans **(Multimodal) LLMs Reasoning**, **Post-training**, **RL**, **Agentic AI**, and **Robotics**.
+  A common thread in my work is reliability: making RL for LLMs stable and sample-efficient, rewards harder to game,
+  and reasoning robust to noisy or degraded inputs. This grows out of my earlier work on robust and multimodal learning
+  for multi-agent systems and robotics.
+# Short version used for search engines and link previews.
+meta_description: >-
+  Rui Liu, Ph.D. candidate at the University of Maryland working on LLM post-training, reinforcement learning,
+  reward modeling, agentic LLMs, and recursive self-improvement.
+# Number of news items shown before the "Earlier news" fold.
+news_visible: 6
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ruiiu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: KeunhongP

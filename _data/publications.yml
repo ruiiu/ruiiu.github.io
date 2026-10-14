@@ -1,4 +1,37 @@
+- id: dream-rsi
+  short: "Dream-RSI"
+  selected: true
+  theme: Self-improvement
+  title: "Dream-RSI: Recursive Self-Improvement through Evolving Worlds"
+  venue: Technical Report, 2026
+  venue_short: Tech Report, 2026
+  description: "Dream-RSI turns an agent's completed discovery trees into a replay simulator, so new exploration policies can be evaluated and refined offline (by dreaming) before being redeployed online, closing a self-improvement loop at the exploration layer."
+  project_page: https://www.dream-rsi.com
+  github: zhengkid/Dream-RSI
+  image: dream-rsi.png
+  authors:
+    - tong
+    - xidong
+    - zhengzhang
+    - zhankui
+    - chaoyi
+    - benjamin
+    - ruoqiao
+    - dibai
+    - haolin
+    - rui
+    - xuewang
+    - yuezhuan
+    - wangcheng
+    - renkai
+    - heng
+    - xinwu
+    - yunsong
+
 - id: deltarubric
+  short: "DeltaRubric"
+  selected: true
+  theme: Reward modeling
   title: "DeltaRubric: Generative Multimodal Reward Modeling via Joint Planning and Verification"
   venue: Preprint, 2026
   venue_short: Preprint, 2026
@@ -19,6 +52,7 @@
     - leo
 
 - id: lipsync
+  short: "ATR"
   title: "Align Then Reason: A Multimodal Lip-Sync Judge for Dubbing"
   venue: Preprint, 2026
   venue_short: Preprint, 2026
@@ -37,10 +71,11 @@
     - cameron
 
 - id: care
+  short: "CARE"
   title: "CARE: Certifying Acceleration for Vision-Language-Action Inference"
   venue: Preprint, 2026
   venue_short: Preprint, 2026
-  description: We propose CARE, a training-free approach for certifying acceleration for VLA inference while preserving with confidence that acceleration does not break tasks. 
+  description: We propose CARE, a training-free approach for certifying acceleration for VLA inference that certifies, with statistical confidence, that the speed-up does not break task success. 
   # project_page: https://deltarubric.github.io
   arxiv: 2610.08917
   image: care2.png
@@ -52,8 +87,11 @@
     - zhipeng
 
 - id: roma
+  short: "ROMA"
+  selected: true
+  theme: RL post-training
   title: "Reinforcing Multimodal Reasoning Against Visual Degradation"
-  venue: <span style="color:blue">The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS, 2026)</span>
+  venue: "The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS, 2026)"
   venue_short: NeurIPS, 2026
   description: We propose ROMA, an RL fine-tuning approach for MLLMs that enforces robustness to visual degradation.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
@@ -72,8 +110,11 @@
     - leo
 
 - id: dupl
+  short: "DUPL"
+  selected: true
+  theme: RL post-training
   title: "Dual-Uncertainty Guided Policy Learning for Multimodal Reasoning"
-  venue: <span style="color:blue">The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP Findings, 2026)</span>
+  venue: "The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP Findings, 2026)"
   venue_short: EMNLP Findings, 2026
   description: A method that guides policy learning using measured dual-uncertainty (output and perceptual) as feedback signals to encourage exploration and enhance reasoning in multimodal LLMs.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
@@ -94,8 +135,11 @@
     - dong
     
 - id: mssr
+  short: "MSSR"
+  selected: true
+  theme: RL post-training
   title: "Stable and Efficient Single-Rollout RL for Multimodal Reasoning"
-  venue: <span style="color:blue">The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (CVPR, 2026)</span>
+  venue: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (CVPR, 2026)"
   venue_short: CVPR, 2026
   description: A group-free RLVR approach that achieves both stable optimization and effective multimodal reasoning performance.
   project_page: https://mssr-proj.github.io
@@ -115,6 +159,7 @@
     - dong
 
 - id: a2maml
+  short: "A2MAML"
   title: "Active Asymmetric Multi-Agent Multimodal Learning under Uncertainty"
   venue: Preprint, 2026
   venue_short: Preprint, 2026
@@ -129,8 +174,9 @@
     - ming
 
 - id: adacong
+  short: "AdaConG"
   title: "Adaptive Conformal Guidance for Learning under Uncertainty"
-  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations (ICLR, 2026)</span>
+  venue: "The Fourteenth International Conference on Learning Representations (ICLR, 2026)"
   venue_short: ICLR, 2026
   description: "A broadly applicable framework that dynamically modulates guidance signals based on associated uncertainty, providing a simple yet effective solution for incorporating uncertainty-aware guidance across diverse machine learning systems."
   # project_page: https://ruiiu.github.io/imrl
@@ -145,8 +191,9 @@
     - pratap
 
 - id: small
+  short: "RL-guided sampling"
   title: "Small RL Controller, Large Language Model: RL-Guided Adaptive Sampling for Test-Time Scaling"
-  venue: <span style="color:blue">The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP, 2026)</span>
+  venue: "The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP, 2026)"
   venue_short: EMNLP, 2026
   description: We train a lightweight sampling controller with RL to jointly balance answer correctness, latency, and computation cost for test-time scaling.
   # project_page: https://ruiiu.github.io/imrl
@@ -162,10 +209,13 @@
     - hongtu
 
 - id: autotts
+  short: "AutoTTS"
+  selected: true
+  theme: Agentic LLMs
   title: "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling"
-  venue: <span style="color:blue">The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS, 2026)</span>
+  venue: "The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS, 2026)"
   venue_short: NeurIPS, 2026
-  description: "We propose an environment-driven framework, AutoTTS, that changes what researchers design: from individual TTS heuristics to environments where TTS strategies can be discovered  automatically."
+  description: "We propose an environment-driven framework, AutoTTS, that changes what researchers design: from individual TTS heuristics to environments where TTS strategies can be discovered automatically."
   project_page: https://zhengkid.github.io/AutoTTS-web/
   arxiv: 2605.08083
   github: zhengkid/AutoTTS
@@ -187,8 +237,9 @@
     - heng
 
 - id: probe
+  short: "Parallel-Probe"
   title: "Parallel-Probe: Towards Efficient Parallel Thinking via 2D Probing"
-  venue: <span style="color:blue">Forty-Third International Conference on Machine Learning (ICML, 2026)</span>
+  venue: "Forty-Third International Conference on Machine Learning (ICML, 2026)"
   venue_short: ICML, 2026
   description: A training-free controller for efficient parallel thinking by using consensus-based early stopping and deviation-based branch pruning to reduce computational costs while maintaining accuracy.
   project_page: https://huggingface.co/spaces/EfficientReasoning/efficient_reasoning_online_judgement
@@ -211,8 +262,9 @@
     - heng
 
 - id: prefix
+  short: "VPPO"
   title: "Save the Good Prefix: Precise Error Penalization via Process-Supervised RL to Enhance LLM Reasoning"
-  venue: <span style="color:blue">The 64th Annual Meeting of the Association for Computational Linguistics (ACL Findings, 2026)</span>
+  venue: "The 64th Annual Meeting of the Association for Computational Linguistics (ACL Findings, 2026)"
   venue_short: ACL Findings, 2026
   description: An LLM training framework that improves reasoning by using Process Reward Models (PRMs) to identify the first error in a chain-of-thought, penalizing only the subsequent incorrect steps while rewarding the preceding good prefix.
   # project_page:
@@ -231,8 +283,9 @@
     - dong
 
 - id: self
+  short: "Vision-SR1"
   title: "Self-Rewarding Vision-Language Model via Reasoning Decomposition"
-  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations (ICLR, 2026)</span>
+  venue: "The Fourteenth International Conference on Learning Representations (ICLR, 2026)"
   venue_short: ICLR, 2026
   description: Vision-SR1 uses RL to enhance reasoning in vision-language models by decomposing the process into visual perception and language reasoning stages, improving accuracy and reducing hallucinations.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
@@ -254,10 +307,13 @@
 
 
 - id: parallel-r1
+  short: "Parallel-R1"
+  selected: true
+  theme: RL post-training
   title: "Parallel-R1: Towards Parallel Thinking via Reinforcement Learning"
-  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations (ICLR, 2026)</span>
+  venue: "The Fourteenth International Conference on Learning Representations (ICLR, 2026)"
   venue_short: ICLR, 2026
-  description: A RL framework that enhances LLMs reasoning capabilities by enabling parallel thinking through a progressive curriculum.
+  description: An RL framework that enhances LLM reasoning capabilities by enabling parallel thinking through a progressive curriculum.
   project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
   arxiv: 2509.07980
   github: zhengkid/Parallel-R1
@@ -276,8 +332,11 @@
     - dong
 
 - id: cde
+  short: "CDE"
+  selected: true
+  theme: RL post-training
   title: "CDE: Curiosity-Driven Exploration for Efficient Reinforcement Learning in Large Language Models"
-  venue: <span style="color:blue">The Fourteenth International Conference on Learning Representations (ICLR, 2026)</span>
+  venue: "The Fourteenth International Conference on Learning Representations (ICLR, 2026)"
   venue_short: ICLR, 2026
   description: CDE enhances Reinforcement Learning with Verifiable Rewards (RLVR) by using intrinsic curiosity signals from the actor and critic to improve exploration and reduce premature convergence in LLMs.
   # project_page: https://zhengkid.github.io/Parallel_R1.github.io/#
@@ -298,8 +357,9 @@
     - dong
 
 - id: plug
+  short: "Plug-and-Play Reweighting"
   title: "Plug-and-Play Reweighting for Resilient Collaborative Decision-Making in Connected Autonomous Driving"
-  venue: <span style="color:blue">2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2026)</span>
+  venue: "2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2026)"
   venue_short: IROS, 2026
   description: "A collaborative decision-making framework for multi-agent systems, such as connected autonomous vehicles."
   # project_page: https://ruiiu.github.io/imrl
@@ -315,8 +375,9 @@
     - peng
 
 - id: caml
+  short: "CAML"
   title: "CAML: Collaborative Auxiliary Modality Learning for Multi-Agent Systems"
-  venue: <span style="color:blue">The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS, 2025)</span>
+  venue: "The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS, 2025)"
   venue_short: NeurIPS, 2025
   description: "A multi-modal multi-agent framework that enables agents to collaborate and share multi-modal data during training while allowing inference with reduced modalities during testing, which is especially beneficial for deployment in resource-constrained environments."
   # project_page: https://ruiiu.github.io/imrl
@@ -331,8 +392,9 @@
     - ming
 
 - id: mmcd
+  short: "MMCD"
   title: "MMCD: Multi-Modal Collaborative Decision-Making for Connected Autonomy with Knowledge Distillation"
-  venue: <span style="color:blue">2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2025)</span>
+  venue: "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2025)"
   venue_short: IROS, 2025
   description: "A multi-modal collaborative decision-making approach for connected autonomy."
   project_page: https://ruiiu.github.io/mmcd
@@ -347,8 +409,9 @@
     - ming
 
 - id: imrl
+  short: "IMRL"
   title: "IMRL: Integrating Visual, Physical, Temporal, and Geometric Representations for Enhanced Food Acquisition"
-  venue: <span style="color:blue">2025 IEEE International Conference on Robotics and Automation (ICRA, 2025)</span>
+  venue: "2025 IEEE International Conference on Robotics and Automation (ICRA, 2025)"
   venue_short: ICRA, 2025
   description: "A representation learning approach for robust imitation learning in robotic manipulation for food acquisition."
   project_page: https://ruiiu.github.io/imrl
@@ -362,6 +425,7 @@
     - pratap
 
 - id: risk
+  short: "Risk-sensitive PG"
   title: "Towards Efficient Risk-Sensitive Policy Gradient: An Iteration Complexity Analysis"
   venue: Preprint, 2025
   venue_short: Preprint, 2025
@@ -377,8 +441,9 @@
     - pratap
 
 - id: lava
+  short: "LAVA"
   title: "LAVA: Long-horizon Visual Action based Food Acquisition"
-  venue: <span style="color:blue">2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2024)</span>
+  venue: "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2024)"
   venue_short: IROS, 2024
   description: "A long-horizon visual action learning approach for robotic manipulation in food acquisition of liquid, semisolid, and deformable foods."
   project_page: "https://raaslab.org/projects/RoboSpoon/"
@@ -395,8 +460,9 @@
     - "Best Paper Award at ICRA 2024 Workshop on Cooking Robotics: Perception and Motion Planning"
     
 - id: droc
+  short: "D3ROC"
   title: "Data-Driven Distributionally Robust Optimal Control with State-Dependent Noise"
-  venue: <span style="color:blue">2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2023)</span>
+  venue: "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2023)"
   venue_short: IROS, 2023
   description: "A data-driven technique for estimating the uncertainty distribution and corresponding KL divergence bound for distributionally robust optimal control (DROC)."
   # project_page: https://reconfusion.github.io
@@ -409,8 +475,9 @@
     - pratap
 
 - id: avil
+  short: "AVIL"
   title: "Adaptive Visual Imitation Learning for Robotic Assisted Feeding Across Varied Bowl Configurations and Food Types"
-  venue: <span style="color:blue">2024 IEEE International Conference on Robotics and Automation (Workshop)</span>
+  venue: "2024 IEEE International Conference on Robotics and Automation (Workshop)"
   venue_short: ICRA, 2024
   description: "An adaptive visual imitation learning approach for robotic scooping tasks in assistive feeding."
   # project_page: "https://fig-nerf.github.io"

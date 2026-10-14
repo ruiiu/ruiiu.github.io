@@ -1,91 +1,104 @@
-- date: Sept 2026
-  description: >-
-    Two papers accepted to NeurIPS 2026. 
+# Newest first. The first `news_visible` items (set in _config.yml) are shown on
+# the homepage; the rest are folded under "Earlier news".
 
-- date: Sept 2026
+- date: Sep 2026
   description: >-
-    Three new papers out. One on recursive self-improvement ([Dream-RSI](https://www.dream-rsi.com/)), one on certifying VLA inference acceleration ([CARE](https://arxiv.org/abs/2610.08917)), one on reward modeling ([ATR](https://arxiv.org/abs/2610.00825)). 
-    
+    Two papers accepted to NeurIPS 2026:
+    [ROMA](https://arxiv.org/abs/2605.09262) (RL for robust multimodal reasoning) and
+    [LLMs Improving LLMs](https://zhengkid.github.io/AutoTTS-web/) (agentic discovery of test-time scaling strategies).
+
+- date: Sep 2026
+  description: >-
+    Three new papers:
+    [Dream-RSI](https://www.dream-rsi.com/) on recursive self-improvement,
+    [CARE](https://arxiv.org/abs/2610.08917) on certified VLA inference acceleration, and
+    [ATR](https://arxiv.org/abs/2610.00825), a multimodal lip-sync judge.
+
 - date: Aug 2026
   description: >-
-    Two papers accepted to EMNLP 2026. One main and one findings.  
-    
+    Two papers accepted to EMNLP 2026:
+    [RL-guided adaptive sampling](https://arxiv.org/abs/2606.03102) for test-time scaling (Main) and
+    [DUPL](https://arxiv.org/abs/2510.01444) (Findings).
+
+- date: Summer 2026
+  description: >-
+    Research internship at Netflix Research on LLM post-training, reasoning, and reward modeling.
+
 - date: May 2026
   description: >-
-    Three new papers out. One on multimodal reward modeling with self-generated, self-evolving rubrics ([DeltaRubric](https://arxiv.org/pdf/2605.09269)). One on mulitmodal reasoning robustness ([ROMA](https://arxiv.org/pdf/2605.09262)). 
-    One on automated test-time scaling ([AutoTTS](https://arxiv.org/pdf/2605.08083)).
-    
+    Three new papers:
+    [DeltaRubric](https://deltarubric.github.io) on multimodal reward modeling with self-generated rubrics,
+    [ROMA](https://arxiv.org/abs/2605.09262) on robust multimodal reasoning, and
+    [AutoTTS](https://arxiv.org/abs/2605.08083) on automated test-time scaling.
+
 - date: Apr 2026
   description: >-
-    One paper accepted to ICML 2026. One paper accepted to ACL Findings 2026.  
-    
-- date: Feb 2026
-  description: >-
-    [MSSR](https://arxiv.org/pdf/2512.18215) (Multimodal Stabilized Single-Rollout) accepted to CVPR 2026. 
+    [Parallel-Probe](https://arxiv.org/abs/2602.03845) accepted to ICML 2026, and
+    [VPPO](https://arxiv.org/abs/2601.18984) accepted to ACL 2026 Findings.
 
 - date: Feb 2026
   description: >-
-    Three new papers out. [A2MAML](https://arxiv.org/pdf/2602.04763) for multi-agent multimodal systems, [Parallel-Probe](https://arxiv.org/pdf/2602.03845) for efficient parallel-thinking, [VPPO](https://arxiv.org/pdf/2601.18984) for LLM reasoning with PRM.
-    
-- date: Jan 2026
+    [MSSR](https://mssr-proj.github.io) (Multimodal Stabilized Single-Rollout RL) accepted to CVPR 2026.
+
+- date: Feb 2026
   description: >-
-    Four papers accepted to ICLR 2026. Congratulations to all coauthors!
+    Three new papers:
+    [A2MAML](https://arxiv.org/abs/2602.04763) for multi-agent multimodal learning,
+    [Parallel-Probe](https://arxiv.org/abs/2602.03845) for efficient parallel thinking, and
+    [VPPO](https://arxiv.org/abs/2601.18984) for process-supervised RL.
 
 - date: Jan 2026
   description: >-
-    Our paper [DUPL](https://arxiv.org/pdf/2510.01444) (Dual-Uncertainty Guided Policy Learning) for multimodal LLM reasoning is out.
-    
+    Four papers accepted to ICLR 2026:
+    [Parallel-R1](https://zhengkid.github.io/Parallel_R1.github.io/),
+    [CDE](https://arxiv.org/abs/2509.09675),
+    [Vision-SR1](https://arxiv.org/abs/2508.19652), and
+    [AdaConG](https://arxiv.org/abs/2502.16736).
+
+- date: Jan 2026
+  description: >-
+    [DUPL](https://arxiv.org/abs/2510.01444) (Dual-Uncertainty Guided Policy Learning) for multimodal LLM reasoning is out.
+
 - date: Dec 2025
   description: >-
-    Our paper [MSSR](https://arxiv.org/pdf/2512.18215) (Multimodal Stabilized Single-Rollout) for multimodal LLM reasoning is out.
+    [MSSR](https://arxiv.org/abs/2512.18215) (Multimodal Stabilized Single-Rollout RL) for multimodal LLM reasoning is out.
 
 - date: Sep 2025
   description: >-
-    Three papers on (multimodal) LLMs reasoning are out. [Vision-SR1](https://arxiv.org/pdf/2508.19652) for VLM reasoning, 
-    [Parallel-R1](https://zhengkid.github.io/Parallel_R1.github.io/#) for parallel thinking with RL, [CDE](https://arxiv.org/pdf/2509.09675) (Curiosity-Driven Exploration) for LLM reasoning. 
+    Three papers on (multimodal) LLM reasoning:
+    [Vision-SR1](https://arxiv.org/abs/2508.19652) for VLM reasoning,
+    [Parallel-R1](https://zhengkid.github.io/Parallel_R1.github.io/) for parallel thinking with RL, and
+    [CDE](https://arxiv.org/abs/2509.09675) (Curiosity-Driven Exploration) for LLM reasoning.
 
 - date: Sep 2025
   description: >-
-    One paper on learning under uncertainty ([AdaConG](https://arxiv.org/pdf/2502.16736)) is out.
-    
-- date: Sep 2025
-  description: >-
-    One paper on multimodal multi-agent systems ([CAML](https://arxiv.org/pdf/2502.17821)) accepted to NeurIPS 2025.
+    [CAML](https://arxiv.org/abs/2502.17821) (multimodal multi-agent learning) accepted to NeurIPS 2025.
+    [AdaConG](https://arxiv.org/abs/2502.16736) on learning under uncertainty is out.
 
 - date: Aug 2025
   description: >-
-    One paper on [risk-sensitive policy gradient](https://arxiv.org/pdf/2403.08955) is out. 
+    Paper on [risk-sensitive policy gradient](https://arxiv.org/abs/2403.08955) is out.
 
 - date: Jun 2025
   description: >-
-    One paper on multimodal collaborative decision-making ([MMCD](https://ruiiu.github.io/mmcd/)) accepted to IROS 2025.
+    [MMCD](https://ruiiu.github.io/mmcd/) (multimodal collaborative decision-making) accepted to IROS 2025.
 
 - date: May 2025
   description: >-
-    Start my internship at Tencent AI Lab, Bellevue, WA.
+    Started a research internship at Tencent (AI Lab and Hunyuan LLM Frontier), Bellevue, WA.
 
 - date: Jan 2025
   description: >-
-    One paper on robust imitation learning for robotic manipulation ([IMRL](https://ruiiu.github.io/imrl/)) accepted to ICRA 2025.
+    [IMRL](https://ruiiu.github.io/imrl/) (robust imitation learning for robotic manipulation) accepted to ICRA 2025.
 
 - date: Jun 2024
   description: >-
-    One paper on visual action learning for robotic manipulation ([LAVA](https://raaslab.org/projects/RoboSpoon/)) accepted to IROS 2024.
+    [LAVA](https://raaslab.org/projects/RoboSpoon/) (visual action learning for robotic manipulation) accepted to IROS 2024.
 
 - date: Jun 2023
   description: >-
-    One paper on distributionally robust optimal control ([D<sup>3</sup>ROC](https://arxiv.org/pdf/2303.02293)) accepted to IROS 2023.
+    [D<sup>3</sup>ROC](https://arxiv.org/abs/2303.02293) (distributionally robust optimal control) accepted to IROS 2023.
 
 - date: May 2023
   description: >-
-    Start my internship at Apple, Cupertino, CA.
-    
-# - date: Jun 2020
-#   description: >-
-#     We've released the
-#     [code](https://github.com/NVlabs/latentfusion) and
-#     [data](https://latentfusion.github.io) for [_LatentFusion_](https://latentfusion.github.io).
-# - date: Feb 2020
-#   description: >-
-#     [_LatentFusion_](https://latentfusion.github.io), our paper on zero-shot pose estimation,
-#     has been accepted to CVPR 2020.
+    Started a research internship at Apple, Cupertino, CA.

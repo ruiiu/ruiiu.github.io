@@ -5,203 +5,165 @@ layout: null
 <html lang="en-US">
 
 <head>
-  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-
-  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ site.name }}</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <meta name="description" content="{{ site.meta_description | strip }}">
+  <meta name="author" content="{{ site.name }}">
+  <link rel="canonical" href="{{ site.url }}/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="{{ site.name }}">
+  <meta property="og:description" content="{{ site.meta_description | strip }}">
+  <meta property="og:url" content="{{ site.url }}/">
+  <meta property="og:image" content="{{ site.url }}/images/thumbs/Rui.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232346b8'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-weight='700' fill='white' text-anchor='middle'%3ERL%3C/text%3E%3C/svg%3E">
+  <link rel="preload" href="{{ '/fonts/source-serif-4-latin-opsz-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/fonts/source-sans-3-latin-wght-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/css/site.css' | relative_url }}">
+  {% if site.google_analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', '{{ site.google_analytics }}');
   </script>
-
-  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link href="{{ '/css/fontawesome.all.min.css' | relative_url }}" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
-  <link href="{{ '/css/bulma.min.css' | relative_url }}" rel="stylesheet">
-  <link href="{{ '/css/index.css' | relative_url }}" rel="stylesheet">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script defer src="{{ '/js/fontawesome.all.min.js' | relative_url }}"></script>
-  <script src="{{ '/js/index.js' | relative_url }}"></script>
+  {% endif %}
 </head>
 
 <body>
+  <main class="page">
 
-  <section class="hero">
-    <div class="hero-body container is-max-desktop">
-      <div class="columns is-vcentered">
-
-        <div class="column is-4">
-          <div class="portrait">
-            <img src="{{ '/images/Rui.png' | relative_url }}" />
-          </div>
-        </div>
-
-        <div class="column">
-          <h1 class="title">
-            <b>Hello, I'm {{ site.name }}</b>
-          </h1>
-          <div class="content has-text-justified">
-            {{ site.description | markdownify }}
-            <div class="buttons">
-              <a class="external-link button is-light" href="cv.html">
-                <span class="icon"><i class="fas fa-file"></i></span>
-                <span>CV</span>
-              </a>
-
-              <a class="external-link button is-light"
-                href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
-                <span class="icon"><i class="ai ai-google-scholar"></i></span>
-                <span>Scholar</span>
-              </a>
-
-<!--               <a class="external-link button is-light" href="https://github.com/{{ site.github_username }}">
-                <span class="icon"><i class="fab fa-github"></i></span>
-                <span>Github</span>
-              </a>
-
-              <a class="external-link button is-light" href="https://twitter.com/{{ site.twitter_username }}">
-                <span class="icon"><i class="fab fa-twitter"></i></span>
-                <span>Twitter</span>
-              </a> -->
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- News. -->
-  <div class="hr">
-    <div class="container">
-      <hr>
-    </div>
-  </div>
-
-  <section class="section">
-    <div class="container is-max-desktop">
-
-      <h2 class="title is-3">News</h2>
-      <div class="content">
-        <ul>
-          {% for news in site.data.news %}
-          <li>
-            <b>{{ news.date }}</b>: {{ news.description | markdownify | remove: '<p>' | remove: '</p>' }}
-          </li>
-          {% endfor %}
+    <header class="intro">
+      <img class="portrait" src="{{ '/images/thumbs/Rui.webp' | relative_url }}" alt="Portrait of {{ site.name }}" width="520" height="489">
+      <div>
+        <h1 class="name">{{ site.name }}</h1>
+        <p class="position">{{ site.position }}</p>
+        <ul class="links">
+          <li><a href="mailto:{{ site.email }}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>{{ site.email }}</a></li>
+          <li><a href="{{ '/cv.html' | relative_url }}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M8.5 13h7M8.5 17h5"/></svg>CV</a></li>
+          <li><a href="https://scholar.google.com/citations?user={{ site.google_scholar }}"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3 1.5 9.5 12 16l8-4.95V17h2V9.5z"/><path d="M6 13.7V17c0 1.7 2.7 3.5 6 3.5s6-1.8 6-3.5v-3.3L12 17.4z"/></svg>Google Scholar</a></li>
+          {% if site.github_username %}<li><a href="https://github.com/{{ site.github_username }}"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>GitHub</a></li>{% endif %}
+          {% if site.twitter_username %}<li><a href="https://x.com/{{ site.twitter_username }}"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.3L5.3 21H2.2l7.2-8.3L1.8 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.6z"/></svg>X / Twitter</a></li>{% endif %}
         </ul>
       </div>
+    </header>
 
-      <h2 class="title is-3">Selected Publications</h2>
+    <p class="statement">{{ site.statement | strip }}</p>
 
-      {% for publication in site.data.publications %}
-      <div class="publication-block columns">
+    <div class="bio">
+      {{ site.description | markdownify }}
+    </div>
 
-        <div class="column is-2">
-          <div class="publication-image {% if publication.image_mouseover %}publication-mousecell{% endif %}">
-            {% if publication.image_mouseover contains "mp4" %}
-            <video autoplay preload playsinline class="" height="100%" loop muted width="100%">
-              <source src="./images/{{ publication.image_mouseover }}" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
+    <!-- Research themes -->
+    <section id="research" aria-labelledby="research-title">
+      <div class="section-head">
+        <h2 id="research-title">Research</h2>
+      </div>
+      <div class="themes">
+        {% for theme in site.data.research %}
+        <div class="theme">
+          <h3>{{ theme.title }}</h3>
+          <p>{{ theme.description | strip }}</p>
+          <ul class="theme-papers">
+            {% for pid in theme.papers %}
+            {% assign tp = site.data.publications | where: "id", pid | first %}
+            {% if tp %}
+            <li><a href="{% if tp.selected %}#pub-{{ tp.id }}{% elsif tp.arxiv %}https://arxiv.org/abs/{{ tp.arxiv }}{% else %}{{ tp.project_page }}{% endif %}" title="{{ tp.title | escape }}">{{ tp.short }}</a></li>
             {% endif %}
-            <img alt="{{ publication.title }}" src="./images/{{ publication.image }}" />
-          </div>
+            {% endfor %}
+          </ul>
         </div>
-
-        <div class="column">
-          <div class="content">
-            <h3 class="publication-title"><a href="{{ publication.project_page }}">{{ publication.title }}</a></h3>
-            <div class="publication-authors">
-              {% for author_id in publication.authors %}
-              {% assign author = site.data.authors[author_id] %}
-              <span class="author-block {% if author.is_me %}author-me{% endif %}">
-                {% if author.is_me %}
-                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if forloop.last == false %},{%
-                endif %}
-                {% else %}
-                <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
-                  }}</a>{% if forloop.last == false %},{% endif %}
-                {% endif %}
-              </span>
-              {% endfor %}
-            </div>
-            <div class="publication-venue">
-              <span>{{ publication.venue }}</span>
-              {% for award in publication.awards %}
-                <span class="publication-venue-emph">{{ award }}<span>
-              {% endfor %}
-            </div>
-            <p class="publication-description">{{ publication.description }}</p>
-            <!-- Publication Links. -->
-            <div class="publication-links buttons field has-addons">
-              {% if publication.project_page %}
-              <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
-                <span class="icon"><i class="fas fa-globe-asia"></i></span>
-                <span>Project Page</span>
-              </a>
-              {% endif %}
-              {% if publication.arxiv %}
-              <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
-                <span class="icon"><i class="fas fa-file-pdf"></i></span>
-                <span>PDF</span>
-              </a>
-              <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ publication.arxiv }}">
-                <span class="icon"><i class="ai ai-arxiv"></i></span>
-                <span>arXiv</span>
-              </a>
-              {% endif %}
-              {% if publication.github %}
-              <a class="external-link button is-small is-ghost" href="https://github.com/{{ publication.github }}">
-                <span class="icon"><i class="fa fab fa-github"></i></span>
-                <span>Code</span>
-              </a>
-              {% endif %}
-            </div>
-            <!--/ Publication Links. -->
-          </div>
-        </div>
+        {% endfor %}
       </div>
-      {% endfor %}
-    </div>
-  </section>
+      <p class="earlier">
+        Earlier work: robust and multimodal learning for multi-agent systems and robotics, including
+        <a href="https://arxiv.org/abs/2502.17821">CAML</a> (NeurIPS 2025),
+        <a href="https://ruiiu.github.io/mmcd">MMCD</a> (IROS 2025),
+        <a href="https://ruiiu.github.io/imrl">IMRL</a> (ICRA 2025), and
+        <a href="https://raaslab.org/projects/RoboSpoon/">LAVA</a> (IROS 2024, ICRA workshop best paper).
+      </p>
+    </section>
 
-
-  <footer class="footer">
-    <div class="container">
-      <div class="content footer-links has-text-centered">
-        <a href="mailto:{{ site.email }}">
-          <i class="fas fa-envelope"></i>
-        </a>
-<!--         <a class="external-link" href="https://github.com/{{ site.github_username }}">
-          <i class="fab fa-github"></i>
-        </a> -->
-        <a class="external-link" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
-          <i class="ai ai-google-scholar"></i>
-        </a>
+    <!-- News -->
+    <section id="news" aria-labelledby="news-title">
+      <div class="section-head">
+        <h2 id="news-title">News</h2>
       </div>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-8">
-          <div class="content">
-            <p>
-              Feel free to <a href="https://github.com/keunhong/keunhong.github.io">borrow this template</a>.
+      {% assign news_visible = site.news_visible | default: 6 %}
+      <ul class="news">
+        {% for news in site.data.news limit: news_visible %}
+        <li><time>{{ news.date }}</time><span>{{ news.description | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></li>
+        {% endfor %}
+      </ul>
+      {% assign news_total = site.data.news | size %}
+      {% if news_total > news_visible %}
+      <details class="more">
+        <summary><span class="when-closed">Show earlier news</span><span class="when-open">Hide earlier news</span></summary>
+        <ul class="news">
+          {% for news in site.data.news offset: news_visible %}
+          <li><time>{{ news.date }}</time><span>{{ news.description | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endif %}
+    </section>
+
+    <!-- Selected publications -->
+    <section id="publications" aria-labelledby="pubs-title">
+      {% assign pub_total = site.data.publications | size %}
+      <div class="section-head">
+        <h2 id="pubs-title">Selected publications</h2>
+        <p class="section-note">All {{ pub_total }} papers are in my <a href="{{ '/cv.html#publications' | relative_url }}">CV</a> and on <a href="https://scholar.google.com/citations?user={{ site.google_scholar }}">Google Scholar</a>.</p>
+      </div>
+
+      <div class="pubs">
+        {% for publication in site.data.publications %}
+        {% if publication.selected %}
+        {% if publication.project_page %}{% assign main_link = publication.project_page %}{% elsif publication.arxiv %}{% assign main_link = 'https://arxiv.org/abs/' | append: publication.arxiv %}{% else %}{% assign main_link = '' %}{% endif %}
+        <article class="pub" id="pub-{{ publication.id }}">
+          <a class="pub-thumb" href="{{ main_link }}" tabindex="-1" aria-hidden="true">
+            {% if publication.image %}
+            {% assign stem = publication.image | split: '.' | first %}
+            <img src="{{ '/images/thumbs/' | relative_url }}{{ stem }}.webp" alt="" loading="lazy">
+            {% else %}
+            <span>{{ publication.short }}</span>
+            {% endif %}
+          </a>
+          <div>
+            <h3 class="pub-title"><a href="{{ main_link }}">{{ publication.title }}</a></h3>
+            <p class="authors">
+              {%- for author_id in publication.authors -%}
+              {%- assign author = site.data.authors[author_id] -%}
+              {%- capture full_name -%}{{ author.first_name | strip }}{% if author.middle_name %} {{ author.middle_name | strip }}{% endif %}{% if author.last_name %} {{ author.last_name | strip }}{% endif %}{%- endcapture -%}
+              {%- if author.is_me -%}<span class="me">{{ full_name }}</span>{%- elsif author.website -%}<a href="{{ author.website }}">{{ full_name }}</a>{%- else -%}{{ full_name }}{%- endif -%}{%- unless forloop.last -%}, {% endunless -%}
+              {%- endfor -%}
             </p>
+            <p class="venue">
+              <span class="venue-name">{{ publication.venue_short | remove: "," }}</span>
+              {% if publication.theme %}<span class="tag">{{ publication.theme }}</span>{% endif %}
+              {% for award in publication.awards %}<span class="award">{{ award }}</span>{% endfor %}
+            </p>
+            <p class="pub-desc">{{ publication.description }}</p>
+            <ul class="pub-links">
+              {% if publication.arxiv %}<li><a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv</a></li><li><a href="https://arxiv.org/pdf/{{ publication.arxiv }}">PDF</a></li>{% endif %}
+              {% if publication.project_page %}<li><a href="{{ publication.project_page }}">Project page</a></li>{% endif %}
+              {% if publication.github %}<li><a href="https://github.com/{{ publication.github }}">Code</a></li>{% endif %}
+            </ul>
           </div>
-        </div>
+        </article>
+        {% endif %}
+        {% endfor %}
       </div>
-    </div>
-  </footer>
+    </section>
 
+    <footer>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p>Last updated {{ site.time | date: "%B %Y" }}. Template adapted from <a href="https://github.com/keunhong/keunhong.github.io">Keunhong Park</a> (CC BY-SA 4.0).</p>
+    </footer>
+  </main>
 </body>
 
 </html>

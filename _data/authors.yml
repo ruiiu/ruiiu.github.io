@@ -195,3 +195,39 @@ zhipeng:
   first_name: Zhipeng
   last_name: Wang
   website: https://fcbayernwzp.github.io/
+zhengzhang:
+  first_name: Zheng
+  last_name: Zhang
+zhankui:
+  first_name: Zhankui
+  last_name: He
+chaoyi:
+  first_name: Chaoyi
+  last_name: Zhang
+benjamin:
+  first_name: Benjamin
+  last_name: Coleman
+ruoqiao:
+  first_name: Ruoqiao
+  last_name: Wei
+dibai:
+  first_name: Di
+  last_name: Bai
+xuewang:
+  first_name: Xue
+  last_name: Wang
+yuezhuan:
+  first_name: Yue
+  last_name: Zhuan
+wangcheng:
+  first_name: Wang-Cheng
+  last_name: Kang
+renkai:
+  first_name: Renkai
+  last_name: Xiang
+xinwu:
+  first_name: Xinwu
+  last_name: Cheng
+yunsong:
+  first_name: Yunsong
+  last_name: Guo

@@ -5,136 +5,104 @@ layout: null
 <html lang="en-US">
 
 <head>
-  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <title>{{ site.title }}</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV · {{ site.name }}</title>
+  <meta name="description" content="Curriculum vitae of {{ site.name }}. {{ site.meta_description | strip }}">
+  <link rel="canonical" href="{{ site.url }}/cv.html">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232346b8'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-weight='700' fill='white' text-anchor='middle'%3ERL%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="{{ '/css/site.css' | relative_url }}">
+  {% if site.google_analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', '{{ site.google_analytics }}');
   </script>
-
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
-  <link href="./css/fontawesome.all.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
-  <link href="./css/bulma.min.css" rel="stylesheet">
-  <link href="./css/cv.css" rel="stylesheet">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script defer src="./js/fontawesome.all.min.js"></script>
+  {% endif %}
 </head>
 
-<body>
+<body class="cv">
+  <main class="page">
 
-  <section>
-    <div class="container is-max-desktop">
-      <div class="columns is-vcentered">
-        <div class="column">
-          <h1 class="title is-2">{{ site.name }}</h1>
-          <h1 class="subtitle is-5">{{ site.position }}</h1>
-        </div>
-        <div class="column is-narrow portrait-column">
-          <img class="portrait-image" src="./images/Rui.png" alt="A portrait of Rui Liu" />
-        </div>
-        <div class="column has-text-right">
-          <p>
-            <a href="{{ site.url }}">
-              <i class="fas fa-home"></i>
-              {% assign url_parts = site.url | split: "//" %}
-              {{ url_parts[1] }}
-            </a>
-          </p>
-<!--           <p>
-            <a href="https://github.com/{{ site.github_username }}">
-              <i class="fab fa-github"></i>
-              {{ site.github_username }}
-            </a>
-          </p>
-          <p>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <i class="fab fa-twitter"></i>
-              {{ site.twitter_username }}
-            </a>
-          </p> -->
-          <p>
-            <a href="mailto:{{ site.email }}">
-              <i class="fas fa-envelope"></i>
-              {{ site.email }}
-            </a>
-          </p>
-        </div>
+    <header class="intro">
+      <div>
+        <h1 class="name">{{ site.name }}</h1>
+        <p class="position">{{ site.position }}</p>
+        <ul class="links">
+          <li><a href="{{ '/' | relative_url }}">{% assign url_parts = site.url | split: "//" %}{{ url_parts[1] }}</a></li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="https://scholar.google.com/citations?user={{ site.google_scholar }}">Google Scholar</a></li>
+          {% if site.github_username %}<li><a href="https://github.com/{{ site.github_username }}">github.com/{{ site.github_username }}</a></li>{% endif %}
+        </ul>
       </div>
+      <img class="portrait" src="{{ '/images/thumbs/Rui.webp' | relative_url }}" alt="Portrait of {{ site.name }}">
+    </header>
 
-      <div class="content">
-        <h2>Education</h2>
-        {% for school in site.data.education %}
-        <div class="columns">
-          <div class="column is-four-fifths">
-            <b>{{ school.name }}</b><br />
-            {{ school.description }}
-          </div>
-          <div class="column is-one-fifths has-text-right">
-            {{ school.dates }}
-          </div>
-        </div>
-        {% endfor %}
+    <h2>Research interests</h2>
+    <p>
+      {% for theme in site.data.research %}{{ theme.title }}{% unless forloop.last %}; {% endunless %}{% endfor %}.
+    </p>
 
-        <h2>Employment</h2>
-
-        {% for job in site.data.employment %}
-        <div class="columns">
-          <div class="column is-four-fifths">
-            <b>{{ job.company }}</b><br />
-            {{ job.description }}
-          </div>
-          <div class="column is-one-fifths has-text-right">
-            {{ job.dates }}
-            <br />
-            {{ job.location }}
-          </div>
-        </div>
-        {% endfor %}
-
-        <h2>Publications</h2>
-
-        {% for publication in site.data.publications %}
-        <div class="columns">
-          <div class="column is-four-fifths">
-            <a href="{{ publication.project_page }}"><b>{{ publication.title }}</b></a>
-            <div class="publication-authors">
-              {% for author_id in publication.authors %}
-              {% assign author = site.data.authors[author_id] %}
-              <span class="author-block {% if author.is_me %}author-me{% endif %}">
-                {% if author.is_me %}
-                {{ author.first_name | slice: 0 }}. {{ author.last_name }}{% if forloop.last == false %},{%
-                endif %}
-                {% else %}
-                <a href="{{ author.website }}">{{ author.first_name | slice: 0 }}. {{ author.last_name }}</a>{% if
-                forloop.last == false %},{% endif %}
-                {% endif %}
-              </span>
-              {% endfor %}
-            </div>
-            {{ publication.description }}
-          </div>
-          <div class="column is-one-fifths has-text-right">
-            {{ publication.venue_short }}
-          </div>
-        </div>
-        {% endfor %}
+    <h2>Education</h2>
+    {% for school in site.data.education %}
+    <div class="cv-row">
+      <div>
+        <p class="what"><b>{{ school.name }}</b></p>
+        <p class="detail">{{ school.description }}</p>
       </div>
+      <div class="when">{{ school.dates }}</div>
     </div>
-  </section>
+    {% endfor %}
 
+    <h2>Experience</h2>
+    {% for job in site.data.employment %}
+    <div class="cv-row">
+      <div>
+        <p class="what"><b>{{ job.company }}</b></p>
+        <p class="detail">{{ job.description }}</p>
+      </div>
+      <div class="when">{{ job.dates }}<br>{{ job.location }}</div>
+    </div>
+    {% endfor %}
+
+    {% assign pub_total = site.data.publications | size %}
+    <h2 id="publications">Publications ({{ pub_total }})</h2>
+
+    {% for group in (1..2) %}
+    {% if group == 1 %}<h3>Conference papers</h3>{% else %}<h3>Preprints and technical reports</h3>{% endif %}
+    <ol class="cv-pubs">
+      {% for publication in site.data.publications %}
+      {% assign v = publication.venue_short %}
+      {% if v contains 'Preprint' or v contains 'Report' %}{% assign is_preprint = true %}{% else %}{% assign is_preprint = false %}{% endif %}
+      {% if group == 1 and is_preprint %}{% continue %}{% endif %}
+      {% if group == 2 and is_preprint == false %}{% continue %}{% endif %}
+      {% if publication.project_page %}{% assign main_link = publication.project_page %}{% elsif publication.arxiv %}{% assign main_link = 'https://arxiv.org/abs/' | append: publication.arxiv %}{% else %}{% assign main_link = '' %}{% endif %}
+      <li>
+        <p class="pub-title"><a href="{{ main_link }}">{{ publication.title }}</a></p>
+        <p class="authors">
+          {%- for author_id in publication.authors -%}
+          {%- assign author = site.data.authors[author_id] -%}
+          {%- capture short_name -%}{{ author.first_name | strip | slice: 0 }}.{% if author.last_name %} {{ author.last_name | strip }}{% endif %}{%- endcapture -%}
+          {%- if author.is_me -%}<span class="me">{{ short_name }}</span>{%- else -%}{{ short_name }}{%- endif -%}{%- unless forloop.last -%}, {% endunless -%}
+          {%- endfor -%}
+        </p>
+        <p class="venue">
+          <span class="venue-name">{{ publication.venue | default: publication.venue_short }}</span>
+          {% for award in publication.awards %}<span class="award">{{ award }}</span>{% endfor %}
+        </p>
+      </li>
+      {% endfor %}
+    </ol>
+    {% endfor %}
+
+    <footer class="no-print">
+      <p><a href="{{ '/' | relative_url }}">Back to homepage</a></p>
+      <p>Last updated {{ site.time | date: "%B %Y" }}.</p>
+    </footer>
+  </main>
 </body>
 
 </html>
