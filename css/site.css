@@ -168,7 +168,7 @@ img { max-width: 100%; display: block; }
 }
 
 .bio { margin-top: 2.25rem; }
-.bio p { margin: 0 0 1rem; max-width: 42rem; }
+.bio p { margin: 0 0 1rem; max-width: 42rem; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
 .bio strong { font-weight: 650; }
 
 /* ---------- Sections ---------- */
@@ -351,6 +351,7 @@ footer a { color: var(--muted); }
   .position { font-size: 0.9375rem; margin-bottom: 0.6rem; }
   .intro .links { grid-column: 1 / -1; }
   .statement { margin-top: 2rem; }
+  .bio p { text-align: left; }
   .news li { grid-template-columns: 1fr; gap: 0; }
   .pub { grid-template-columns: 1fr; gap: 0.75rem; }
   .pub-thumb { max-width: 22rem; }
