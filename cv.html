@@ -71,14 +71,8 @@ layout: null
     {% assign pub_total = site.data.publications | size %}
     <h2 id="publications">Publications ({{ pub_total }})</h2>
 
-    {% for group in (1..2) %}
-    {% if group == 1 %}<h3>Conference papers</h3>{% else %}<h3>Preprints and technical reports</h3>{% endif %}
     <ol class="cv-pubs">
       {% for publication in site.data.publications %}
-      {% assign v = publication.venue_short %}
-      {% if v contains 'Preprint' or v contains 'Report' %}{% assign is_preprint = true %}{% else %}{% assign is_preprint = false %}{% endif %}
-      {% if group == 1 and is_preprint %}{% continue %}{% endif %}
-      {% if group == 2 and is_preprint == false %}{% continue %}{% endif %}
       {% if publication.project_page %}{% assign main_link = publication.project_page %}{% elsif publication.arxiv %}{% assign main_link = 'https://arxiv.org/abs/' | append: publication.arxiv %}{% else %}{% assign main_link = '' %}{% endif %}
       <li>
         <p class="pub-title"><a href="{{ main_link }}">{{ publication.title }}</a></p>
@@ -96,7 +90,6 @@ layout: null
       </li>
       {% endfor %}
     </ol>
-    {% endfor %}
 
     <footer class="no-print">
       <p><a href="{{ '/' | relative_url }}">Back to homepage</a></p>

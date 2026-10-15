@@ -3,8 +3,8 @@
   selected: true
   theme: Self-improvement
   title: "Dream-RSI: Recursive Self-Improvement through Evolving Worlds"
-  venue: Technical Report, 2026
-  venue_short: Tech Report, 2026
+  venue: Preprint, 2026
+  venue_short: Preprint, 2026
   description: "Dream-RSI turns an agent's completed discovery trees into a replay simulator, so new exploration policies can be evaluated and refined offline (by dreaming) before being redeployed online, closing a self-improvement loop at the exploration layer."
   project_page: https://www.dream-rsi.com
   github: zhengkid/Dream-RSI
