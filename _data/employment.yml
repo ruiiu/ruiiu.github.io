@@ -1,3 +1,8 @@
+- company: Google
+  description: Student Researcher. Agentic RL, RSI. 
+  dates: "Fall 2026"
+  location: Mountain View, CA
+  
 - company: Netflix Research
   description: Research Intern. LLMs post-training, reasoning, reward modeling. 
   dates: "Summer 2026"
