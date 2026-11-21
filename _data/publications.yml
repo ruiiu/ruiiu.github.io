@@ -177,6 +177,7 @@
 
 - id: adacong
   short: "AdaConG"
+  selected: true
   title: "Adaptive Conformal Guidance for Learning under Uncertainty"
   venue: "The Fourteenth International Conference on Learning Representations (ICLR, 2026)"
   venue_short: ICLR, 2026
@@ -212,7 +213,7 @@
 
 - id: autotts
   short: "AutoTTS"
-  selected: true
+  selected: false
   theme: Agentic LLMs
   title: "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling"
   venue: "The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS, 2026)"
@@ -310,7 +311,7 @@
 
 - id: parallel-r1
   short: "Parallel-R1"
-  selected: true
+  selected: false
   theme: RL post-training
   title: "Parallel-R1: Towards Parallel Thinking via Reinforcement Learning"
   venue: "The Fourteenth International Conference on Learning Representations (ICLR, 2026)"
@@ -335,7 +336,7 @@
 
 - id: cde
   short: "CDE"
-  selected: true
+  selected: false
   theme: RL post-training
   title: "CDE: Curiosity-Driven Exploration for Efficient Reinforcement Learning in Large Language Models"
   venue: "The Fourteenth International Conference on Learning Representations (ICLR, 2026)"
@@ -378,6 +379,7 @@
 
 - id: caml
   short: "CAML"
+  selected: true
   title: "CAML: Collaborative Auxiliary Modality Learning for Multi-Agent Systems"
   venue: "The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS, 2025)"
   venue_short: NeurIPS, 2025
@@ -490,54 +492,3 @@
     - rui
     - amisha
     - pratap
-    
-# - id: nerfies
-#   title: "Nerfies: Deformable Neural Radiance Fields"
-#   venue: ICCV, 2021
-#   description: "Learning deformation fields with a NeRF let's you reconstruct non-rigid scenes with high fidelity."
-#   project_page: "https://nerfies.github.io"
-#   github: google/nerfies
-#   arxiv: 2011.12948
-#   image: nerfies_before.jpg
-#   image_mouseover: nerfies_after.mp4
-#   authors:
-#     - keunhong
-#     - utsinh
-#     - barron
-#     - sofien
-#     - dgo
-#     - smseitz
-#     - rmbrualla
-#   awards:
-#     - "Oral Presentation"
-
-# - id: latentfusion
-#   title: "LatentFusion: End-to-End Differentiable Reconstruction and Rendering for Unseen Object Pose Estimation "
-#   venue: CVPR, 2020
-#   description: "By learning to predict geometry from images, you can do zero-shot pose estimation with a single network."
-#   project_page: "https://latentfusion.github.io"
-#   github: NVlabs/latentfusion
-#   arxiv: 1912.00416
-#   image: latentfusion_before.jpg
-#   image_mouseover: latentfusion_after.mp4
-#   authors:
-#     - keunhong
-#     - amousavian
-#     - yux
-#     - fox
-
-# - id: photoshape
-#   title: "PhotoShape: Photorealistic Materials for Large-Scale Shape Collections"
-#   venue: SIGGRAPH Asia, 2018
-#   description: "By pairing large collections of images, 3D models, and materials, you can create thousands of photorealistic 3D models fully automatically."
-#   project_page: "https://photoshape.github.io"
-#   github: keunhong/photoshape
-#   arxiv: 1809.09761
-#   image: photoshape.jpg
-#   authors:
-#     - keunhong
-#     - krematas
-#     - ali
-#     - smseitz
-  # awards:
-  #   - "Journal Cover"
